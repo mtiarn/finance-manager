@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include
+        android:id="@+id/include_toolbar"
+        layout="@layout/common_toolbar"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSaveTransaction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include_toolbar">
+
+        <LinearLayout
+            android:id="@+id/layoutRoot"
+            style="@style/ElementLayout"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutTemplateName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:hint="@string/ttl_template_name">
+
+                <EditText
+                    android:id="@+id/editTextTemplateName"
+                    style="@style/EditableEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutSrcAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:hint="@string/ttl_src_transaction_amount">
+
+                <EditText
+                    android:id="@+id/textViewSrcAmount"
+                    style="@style/NotEditableEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/te_lay_DateTime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/ent_date">
+
+                    <EditText
+                        android:id="@+id/editTextDate"
+                        style="@style/NotEditableEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        tools:text="18 сентября 2015"
+                        tools:ignore="TextFields" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:hint="@string/ent_time">
+
+                    <EditText
+                        android:id="@+id/te_ed_Time"
+                        style="@style/NotEditableEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        tools:text="11:51" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ent_account">
+
+                <EditText
+                    android:id="@+id/textViewAccount"
+                    style="@style/NotEditableEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none|textNoSuggestions" />
+            </android.support.design.widget.TextInputLayout><!--Account-->
+            <!--</android.support.v7.widget.CardView>-->
+
+            <LinearLayout
+                android:id="@+id/layoutPayeeOrDestAcc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabLayoutType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    app:tabIndicatorColor="@color/ColorPrimary"
+                    app:tabSelectedTextColor="@color/ColorPrimary" />
+
+                <com.mtiarn.finance.widgets.MyViewPager
+                    android:id="@+id/te_pager_payee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" /><!--Payee ViewPager-->
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/layoutCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@+id/imageButtonDeleteCategory"
+                    android:hint="@string/ent_category">
+
+                    <EditText
+                        android:id="@+id/textViewCategory"
+                        style="@style/NotEditableEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textMultiLine|textNoSuggestions" />
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageButton
+                    android:id="@+id/imageButtonDeleteCategory"
+                    style="@style/ClearButtonStyle"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    tools:ignore="ContentDescription" />
+            </RelativeLayout><!--Location-->
+
+
+            <LinearLayout
+                android:id="@+id/layoutAmounts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.mtiarn.finance.widgets.AmountEditor
+                    android:id="@+id/amount_editor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" /><!--Amount-->
+
+                <com.mtiarn.finance.widgets.AmountEditor
+                    android:id="@+id/dest_amount_editor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" /><!--DestAmount-->
+
+                <RelativeLayout
+                    android:id="@+id/layoutExchangeRate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/textInputLayoutExchangeRate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/ent_exchange_rate">
+
+                        <EditText
+                            android:id="@+id/edit_text_exchange_rate"
+                            style="@style/EditableEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="numberDecimal"
+                            android:selectAllOnFocus="true" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <ImageButton
+                        android:id="@+id/imageButtonInvertExRate"
+                        style="@style/ClearButtonStyle"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        tools:ignore="ContentDescription"
+                        android:src="@drawable/ic_import_export_blue"/>
+                </RelativeLayout><!--ExchangeRate-->
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/layoutSms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/textInputLayoutSms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@+id/imageButtonAddMarker"
+                    android:hint="@string/ttl_select_text_to_add_marker">
+
+                    <com.mtiarn.finance.widgets.SmsEditText
+                        android:id="@+id/te_tv_sms"
+                        style="@style/EditableEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:cursorVisible="true"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:inputType="none"
+                        android:singleLine="false"
+                        android:textIsSelectable="true" />
+                </android.support.design.widget.TextInputLayout>
+
+                    <ImageButton
+                        android:id="@+id/imageButtonAddMarker"
+                        style="@style/ClearButtonStyle"
+                        android:src="@drawable/ic_add_blue"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        tools:ignore="ContentDescription" />
+            </RelativeLayout><!--Sms-->
+
+            <include layout="@layout/content_fts" />
+
+            <include layout="@layout/content_product_list" />
+
+            <RelativeLayout
+                android:id="@+id/layoutProject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@+id/imageButtonDeleteProject"
+                    android:hint="@string/ent_project">
+
+                    <EditText
+                        android:id="@+id/textViewProject"
+                        style="@style/NotEditableEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:text="Проект"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageButton
+                    android:id="@+id/imageButtonDeleteProject"
+                    style="@style/ClearButtonStyle"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    tools:ignore="ContentDescription" />
+            </RelativeLayout><!--Project-->
+
+            <RelativeLayout
+                android:id="@+id/layoutSimpleDebt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@+id/imageButtonDeleteDebt"
+                    android:hint="@string/ent_debt">
+
+                    <EditText
+                        android:id="@+id/textViewSimpleDebt"
+                        style="@style/NotEditableEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageButton
+                    android:id="@+id/imageButtonDeleteDebt"
+                    style="@style/ClearButtonStyle"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    tools:ignore="ContentDescription" />
+            </RelativeLayout><!--SimpleDebt-->
+
+            <RelativeLayout
+                android:id="@+id/layoutDepartment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@+id/imageButtonDeleteDepartment"
+                    android:hint="@string/ent_department">
+
+                    <EditText
+                        android:id="@+id/textViewDepartment"
+                        style="@style/NotEditableEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageButton
+                    android:id="@+id/imageButtonDeleteDepartment"
+                    style="@style/ClearButtonStyle"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    tools:ignore="ContentDescription" />
+            </RelativeLayout><!--Department-->
+
+            <RelativeLayout
+                android:id="@+id/layoutLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@+id/imageButtonDeleteLocation"
+                    android:hint="@string/ent_location">
+
+                    <EditText
+                        android:id="@+id/textViewLocation"
+                        style="@style/NotEditableEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageButton
+                    android:id="@+id/imageButtonDeleteLocation"
+                    style="@style/ClearButtonStyle"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    tools:ignore="ContentDescription" />
+            </RelativeLayout><!--Location-->
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/layoutComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ent_comment">
+
+                <EditText
+                    android:id="@+id/editTextComment"
+                    style="@style/EditableEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapSentences|textMultiLine" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/buttonMore"
+                style="@android:style/Widget.Material.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ent_more" /><!--buttonMore-->
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+    <!--=============================================================================================-->
+    <View
+        android:id="@+id/fabBGLayout"
+        style="@style/FabMenuBackground" />
+
+    <LinearLayout
+        android:id="@+id/fabSelectAllLayout"
+        style="@style/FabMenuButtonChildLayout"
+        app:layout_constraintTop_toTopOf="@+id/fabMenuButtonRootLayout"
+        app:layout_constraintBottom_toBottomOf="@+id/fabMenuButtonRootLayout"
+        app:layout_constraintEnd_toEndOf="@+id/fabMenuButtonRootLayout">
+        <TextView
+            android:text="@string/act_select_all"
+            style="@style/FabChildLabelStyle" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabSelectAll"
+            style="@style/FabMenuButtonChild"
+            app:srcCompat="@drawable/ic_select_all_white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fabUnselectAllLayout"
+        style="@style/FabMenuButtonChildLayout"
+        app:layout_constraintTop_toTopOf="@+id/fabMenuButtonRootLayout"
+        app:layout_constraintBottom_toBottomOf="@+id/fabMenuButtonRootLayout"
+        app:layout_constraintEnd_toEndOf="@+id/fabMenuButtonRootLayout">
+        <TextView
+            android:text="@string/act_unselect_all"
+            style="@style/FabChildLabelStyle" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabUnselectAll"
+            style="@style/FabMenuButtonChild"
+            app:srcCompat="@drawable/ic_unselect_all_white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fabSetCategoryLayout"
+        style="@style/FabMenuButtonChildLayout"
+        app:layout_constraintTop_toTopOf="@+id/fabMenuButtonRootLayout"
+        app:layout_constraintBottom_toBottomOf="@+id/fabMenuButtonRootLayout"
+        app:layout_constraintEnd_toEndOf="@+id/fabMenuButtonRootLayout">
+        <TextView
+            android:text="@string/act_change_category"
+            style="@style/FabChildLabelStyle" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabSetCategory"
+            style="@style/FabMenuButtonChild"
+            app:srcCompat="@drawable/ic_categories"
+            android:tint="@color/fg_white_color"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fabSetProjectLayout"
+        style="@style/FabMenuButtonChildLayout"
+        app:layout_constraintTop_toTopOf="@+id/fabMenuButtonRootLayout"
+        app:layout_constraintBottom_toBottomOf="@+id/fabMenuButtonRootLayout"
+        app:layout_constraintEnd_toEndOf="@+id/fabMenuButtonRootLayout">
+        <TextView
+            android:text="@string/act_change_project"
+            style="@style/FabChildLabelStyle" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabSetProject"
+            style="@style/FabMenuButtonChild"
+            app:srcCompat="@drawable/ic_projects"
+            android:tint="@color/fg_white_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fabDeleteSelectedLayout"
+        style="@style/FabMenuButtonChildLayout"
+        app:layout_constraintTop_toTopOf="@+id/fabMenuButtonRootLayout"
+        app:layout_constraintBottom_toBottomOf="@+id/fabMenuButtonRootLayout"
+        app:layout_constraintEnd_toEndOf="@+id/fabMenuButtonRootLayout">
+        <TextView
+            android:text="@string/act_delete_selected"
+            style="@style/FabChildLabelStyle" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabDeleteSelected"
+            style="@style/FabMenuButtonChild"
+            app:srcCompat="@drawable/ic_trash_white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fabMenuButtonRootLayout"
+        app:layout_constraintBottom_toTopOf="@id/buttonSaveTransaction"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="visible"
+        style="@style/FabMenuRootButtonLayout">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabMenuButtonRoot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:gravity="center_vertical"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/ic_check_circle_white" />
+    </LinearLayout>
+    <!--=============================================================================================-->
+
+    <Button
+        android:id="@+id/buttonSaveTransaction"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/act_save"
+        style="@style/BlueButtonStyle" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+    <changelogversion versionName="1.1.3" changeDate=">2020.06.08">
+        <changelogtext>Bugs fixes</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.1.2" changeDate=">2020.05.30">
+        <changelogtext>Bugs fixes</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.1.1" changeDate=">2020.04.26">
+        <changelogtext>Add create SMS from intent</changelogtext>
+        <changelogtext>Fix clear notification after edit transaction from it</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.1" changeDate=">2020.04.18">
+        <changelogtext>Fix sms parsing issues</changelogtext>
+        <changelogtext>Bug fixes</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.0.2" changeDate=">2018.03.28">
+        <changelogtext>Add preference "Remember last account"</changelogtext>
+        <changelogtext>Fix editing amounts issues</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.0.1" changeDate=">2020.03.25">
+        <changelogtext>Bugs fixes</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.0" changeDate=">2020.03.05">
+        <changelogtext>Original version</changelogtext>
+        <changelogtext>Когда бабки вернешь?</changelogtext>
+    </changelogversion>
+</changelog>

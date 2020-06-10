@@ -1,0 +1,89 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/misha/Desktop/finance manager/app/build/intermediates/incremental/mergeProdDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/misha/.gradle/caches/transforms-2/files-2.1/1da5223cd0889b6bfbcaa5b715f2486b/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "/Users/misha/.gradle/caches/transforms-2/files-2.1/6dfa322f7323c24cf0b569505e874d8a/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1231",
+                        "endColumns": "63",
+                        "endOffsets": "1290"
+                    }
+                },
+                {
+                    "source": "/Users/misha/.gradle/caches/transforms-2/files-2.1/81a842378ed7e4e5dd8533484f634699/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "1295",
+                        "endColumns": "54",
+                        "endOffsets": "1345"
+                    }
+                },
+                {
+                    "source": "/Users/misha/.gradle/caches/transforms-2/files-2.1/617ed8905af9c2e4851ec4a8c616b3a0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "611",
+                        "endColumns": "57",
+                        "endOffsets": "664"
+                    }
+                },
+                {
+                    "source": "/Users/misha/.gradle/caches/transforms-2/files-2.1/4d82e3d6c4677591324b1abeb24b3066/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,553,617,680",
+                        "endLines": "2,3,4,5,6,7,9,10,11,15",
+                        "endColumns": "59,69,70,71,57,57,10,63,62,10",
+                        "endOffsets": "110,180,251,323,381,439,548,612,675,847"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14,15,16,17,19,22,23",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "669,729,799,870,942,1000,1058,1167,1350,1413",
+                        "endLines": "11,12,13,14,15,16,18,19,22,26",
+                        "endColumns": "59,69,70,71,57,57,10,63,62,10",
+                        "endOffsets": "724,794,865,937,995,1053,1162,1226,1408,1580"
+                    }
+                }
+            ]
+        }
+    ]
+}

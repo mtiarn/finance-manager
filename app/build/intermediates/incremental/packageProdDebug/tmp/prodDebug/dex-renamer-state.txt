@@ -1,0 +1,10 @@
+#Wed Jun 10 07:48:05 MSK 2020
+path.2=classes2.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=/Users/misha/Desktop/finance manager/app/build/intermediates/transforms/dexMerger/prod/debug/1
+base.1=/Users/misha/Desktop/finance manager/app/build/intermediates/transforms/dexMerger/prod/debug/0
+base.0=/Users/misha/Desktop/finance manager/app/build/intermediates/transforms/dexMerger/prod/debug/1

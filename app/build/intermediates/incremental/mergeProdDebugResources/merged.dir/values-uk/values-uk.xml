@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Перейти на головний"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Перейти вгору"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Інші опції"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Переглянути всі"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Вибрати програму"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ВИМК."</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"УВІМК."</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"пробіл"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Пошук…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Очистити запит"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Пошуковий запит"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Пошук"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Надіслати запит"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Голосовий пошук"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Надіслати через"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Поділитися через додаток <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Згорнути"</string>
+    <string formatted="false" name="acc_sort_type_alphabet">По алфавиту</string>
+    <string formatted="false" name="acc_sort_type_balance">По балансу</string>
+    <string formatted="false" name="acc_sort_type_custom">Вручную</string>
+    <string formatted="false" name="acc_sort_type_date_creation">По дате создания</string>
+    <string formatted="false" name="acc_sort_type_date_last_operation">По дате последней транзакции</string>
+    <string formatted="false" name="acc_sort_type_type">По типу</string>
+    <string formatted="false" name="account_type_asset">Актив</string>
+    <string formatted="false" name="account_type_bank_account">Счет</string>
+    <string formatted="false" name="account_type_cash">Наличные</string>
+    <string formatted="false" name="account_type_credit_card">Кредитная карта</string>
+    <string formatted="false" name="account_type_debit_card">Дебетовая карта</string>
+    <string formatted="false" name="account_type_other">Другое</string>
+    <string formatted="false" name="account_type_red">Пассив</string>
+    <string formatted="false" name="act_add">Добавить</string>
+    <string formatted="false" name="act_add_accounts_set">Набор счетов</string>
+    <string formatted="false" name="act_add_category">Добавить категорию</string>
+    <string formatted="false" name="act_add_child">Добавить вложенный элемент</string>
+    <string formatted="false" name="act_add_credit">Добавить кредит</string>
+    <string formatted="false" name="act_add_filter">Добавить фильтр</string>
+    <string formatted="false" name="act_add_nested">Добавить вложенный</string>
+    <string formatted="false" name="act_add_product">Добавить товар...</string>
+    <string formatted="false" name="act_ask_question">Задать вопрос</string>
+    <string formatted="false" name="act_backup">Сохранить БД</string>
+    <string formatted="false" name="act_balance_adjustment">Корректировка баланса</string>
+    <string formatted="false" name="act_borrow">Взять в долг</string>
+    <string formatted="false" name="act_change_category">Сменить категорию</string>
+    <string formatted="false" name="act_change_project">Сменить проект</string>
+    <string formatted="false" name="act_clear_budget">Очистить бюджет</string>
+    <string formatted="false" name="act_clear_filters">Удалить все фильтры</string>
+    <string formatted="false" name="act_convert_to_child">Переместить в...</string>
+    <string formatted="false" name="act_convert_to_parent">Сделать родительской</string>
+    <string formatted="false" name="act_copy_budget">Скопировать план с ...</string>
+    <string formatted="false" name="act_create">Создать</string>
+    <string formatted="false" name="act_create_from_fact">Создать из факта</string>
+    <string formatted="false" name="act_create_marker">Новый маркер</string>
+    <string formatted="false" name="act_create_new">Создать новую</string>
+    <string formatted="false" name="act_create_template">Создать шаблон</string>
+    <string formatted="false" name="act_create_transaction">Новая транзакция</string>
+    <string formatted="false" name="act_create_transaction_from_sms">Создать транзакцию</string>
+    <string formatted="false" name="act_delete">Удалить</string>
+    <string formatted="false" name="act_delete_all">Удалить все</string>
+    <string formatted="false" name="act_delete_selected">Удалить выделенные</string>
+    <string formatted="false" name="act_drag_mode">Режим ручной сортировки</string>
+    <string formatted="false" name="act_duplicate">Дублировать</string>
+    <string formatted="false" name="act_edit">Редактировать</string>
+    <string formatted="false" name="act_edit_accounts">Изменить счета</string>
+    <string formatted="false" name="act_edit_name">Изменить название</string>
+    <string formatted="false" name="act_edit_selected">Изменить выделенные</string>
+    <string formatted="false" name="act_filter_on_selected">Добавить фильтр...</string>
+    <string formatted="false" name="act_grant_a_loan_to">Дать в долг</string>
+    <string formatted="false" name="act_import">Импортировать</string>
+    <string formatted="false" name="act_logout_from_dropbox">Выйти из Dropbox</string>
+    <string formatted="false" name="act_new_expense">Новый расход</string>
+    <string formatted="false" name="act_new_income">Новый приход</string>
+    <string formatted="false" name="act_new_transfer">Новый перевод</string>
+    <string formatted="false" name="act_next">Далее</string>
+    <string formatted="false" name="act_paste">Вставить из буфера обмена</string>
+    <string formatted="false" name="act_repay">Оплатить долг</string>
+    <string formatted="false" name="act_restore">Восстановить БД</string>
+    <string formatted="false" name="act_restore_from_dropbox">Восстановить БД из Dropbox</string>
+    <string formatted="false" name="act_save">Сохранить</string>
+    <string formatted="false" name="act_select">Выбрать</string>
+    <string formatted="false" name="act_select_all">Выделить все</string>
+    <string formatted="false" name="act_select_color">Выбрать цвет</string>
+    <string formatted="false" name="act_select_on_selected">Выделить...</string>
+    <string formatted="false" name="act_set_marker">Установить маркер</string>
+    <string formatted="false" name="act_show_report">Показать отчет</string>
+    <string formatted="false" name="act_show_transactions">Показать транзакции</string>
+    <string formatted="false" name="act_signin_with_google_account">Войти с аккаунтом Google</string>
+    <string formatted="false" name="act_sort">Сортировать</string>
+    <string formatted="false" name="act_split">Разделить</string>
+    <string formatted="false" name="act_take_in_payment">Принять оплату долга</string>
+    <string formatted="false" name="act_toggle_lines">Вкл/Выкл линии</string>
+    <string formatted="false" name="act_toggle_percents">Проценты/Суммы</string>
+    <string formatted="false" name="act_toggle_shrink_labels">Вкл/Выкл сокращение значений</string>
+    <string formatted="false" name="act_tune_editor">Настроить редактор</string>
+    <string formatted="false" name="act_undo">Отменить</string>
+    <string formatted="false" name="act_unselect_all">Снять выделение</string>
+    <string name="alarm_sound_default">"Сигнал будильника за умовчанням"</string>
+    <string formatted="false" name="cancel">Отмена</string>
+    <string name="capital_off">"ВИМК"</string>
+    <string name="capital_on">"УВІМК"</string>
+    <string name="changelog_header_version">"Версiя "</string>
+    <string name="changelog_internal_error_internet_connection">Немає доступу до мережi Iнтернет. Неможливо отримати список змін</string>
+    <string name="changelog_internal_error_parsing">Помилка парсінгу файлу</string>
+    <string name="changelog_row_bulletpoint">\u2022</string>
+    <string name="changelog_row_prefix_bug">[b]Помилка:[/b]</string>
+    <string name="changelog_row_prefix_improvement">[b]Додано:[/b]</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Увімкнути"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> не працюватиме, якщо не ввімкнути сервіси Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Увімкнути сервіси Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Установити"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> не працюватиме без сервісів Google Play, яких немає на вашому пристрої."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Установити сервіси Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Помилка сервісів Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"У додатку <ns1:g id="APP_NAME">%1$s</ns1:g> виникла проблема із сервісами Google Play. Повторіть спробу."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> не працюватиме без сервісів Google Play, які не підтримуються на вашому пристрої."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Оновити"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> не працюватиме, якщо не оновити сервіси Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Оновіть сервіси Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> не працюватиме без сервісів Google Play, які зараз оновлюються."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Потрібна нова версія сервісів Google Play. Вони невдовзі оновляться."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Відкрити на телефоні"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Увійти"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Увійти в облік. запис Google"</string>
+    <string formatted="false" name="ent_about">О программе</string>
+    <string formatted="false" name="ent_account">Счет</string>
+    <string formatted="false" name="ent_account_isclosed">Счет закрыт</string>
+    <string formatted="false" name="ent_accounts">Счета</string>
+    <string formatted="false" name="ent_active_account_set">Активный набор счетов</string>
+    <string formatted="false" name="ent_additional">Дополнительно</string>
+    <string formatted="false" name="ent_all_accounts">Все счета</string>
+    <string formatted="false" name="ent_amount">Сумма</string>
+    <string formatted="false" name="ent_amount_pos">Позиция суммы</string>
+    <string formatted="false" name="ent_backup_data">Резервное копирование и востановление</string>
+    <string formatted="false" name="ent_balance_pos">Позиция баланса</string>
+    <string formatted="false" name="ent_bar_chart">График</string>
+    <string formatted="false" name="ent_both">Оба</string>
+    <string formatted="false" name="ent_budget">Бюджет</string>
+    <string formatted="false" name="ent_budget_on">Бюджет на</string>
+    <string formatted="false" name="ent_budget_total_borrow">Взято в долг</string>
+    <string formatted="false" name="ent_budget_total_credits">Итого по кредитам</string>
+    <string formatted="false" name="ent_budget_total_end">Итого на конец месяца</string>
+    <string formatted="false" name="ent_budget_total_income">Заработано</string>
+    <string formatted="false" name="ent_budget_total_io_for_month">Итого за месяц</string>
+    <string formatted="false" name="ent_budget_total_outcome">Потрачено</string>
+    <string formatted="false" name="ent_budget_total_repay">Возвращено долга</string>
+    <string formatted="false" name="ent_budget_total_start">Итого на начало месяца</string>
+    <string formatted="false" name="ent_calculator">Калькулятор</string>
+    <string formatted="false" name="ent_categories">Категории</string>
+    <string formatted="false" name="ent_category">Категория</string>
+    <string formatted="false" name="ent_category_nested">Вложенная категория</string>
+    <string formatted="false" name="ent_code_from_sms">Код из смс</string>
+    <string formatted="false" name="ent_comment">Комментарий</string>
+    <string formatted="false" name="ent_credit">Кредит</string>
+    <string formatted="false" name="ent_credit_limit">Кредитный лимит</string>
+    <string formatted="false" name="ent_credits">Кредиты</string>
+    <string formatted="false" name="ent_currencies">Валюты</string>
+    <string formatted="false" name="ent_currency">Валюта</string>
+    <string formatted="false" name="ent_currency_code">Код</string>
+    <string formatted="false" name="ent_currency_scale">Количество знаков после запятой</string>
+    <string formatted="false" name="ent_currency_symbol">Символы для отображения</string>
+    <string formatted="false" name="ent_current_location">Текущее местоположение</string>
+    <string formatted="false" name="ent_data">Данные</string>
+    <string formatted="false" name="ent_date">Дата</string>
+    <string formatted="false" name="ent_date_range">Диапазон дат</string>
+    <string formatted="false" name="ent_date_range_current">Текущий</string>
+    <string formatted="false" name="ent_date_range_current_and_past">Тек. и прош.</string>
+    <string formatted="false" name="ent_date_range_day">День</string>
+    <string formatted="false" name="ent_date_range_month">Месяц</string>
+    <string formatted="false" name="ent_date_range_past">Прошедший</string>
+    <string formatted="false" name="ent_date_range_week">Неделя</string>
+    <string formatted="false" name="ent_date_range_year">Год</string>
+    <string formatted="false" name="ent_date_time">Дата, время</string>
+    <string formatted="false" name="ent_debt">Долг</string>
+    <string formatted="false" name="ent_debt_start_amount">Начальная сумма долга</string>
+    <string formatted="false" name="ent_debts">Долги</string>
+    <string formatted="false" name="ent_default_department">Подразделение по умолчанию</string>
+    <string formatted="false" name="ent_department">Подразделение</string>
+    <string formatted="false" name="ent_departments">Подразделения</string>
+    <string formatted="false" name="ent_dest_account">Счет назначения</string>
+    <string formatted="false" name="ent_dest_amount">Сумма в валюте получателя</string>
+    <string formatted="false" name="ent_difference">Разница</string>
+    <string formatted="false" name="ent_edit_account">Редактирование счета</string>
+    <string formatted="false" name="ent_edit_credit">Редактирование кредита</string>
+    <string formatted="false" name="ent_edit_debt">Редактирование долга</string>
+    <string formatted="false" name="ent_edit_department">Редактирование подразделения</string>
+    <string formatted="false" name="ent_edit_location">Редактирование местоположения</string>
+    <string formatted="false" name="ent_edit_project">Редактирование проекта</string>
+    <string formatted="false" name="ent_edit_sender">Редактирование отправителя смс</string>
+    <string formatted="false" name="ent_edit_template">Редактирование шаблона</string>
+    <string formatted="false" name="ent_edit_transaction">Редактирование транзакции</string>
+    <string formatted="false" name="ent_edit_transfer">Редактирование перевода</string>
+    <string formatted="false" name="ent_editor_constructor">Настройка редактора транзакций</string>
+    <string formatted="false" name="ent_emitent">Эмитент</string>
+    <string formatted="false" name="ent_end_date">Конечная дата</string>
+    <string formatted="false" name="ent_exchange_rate">Обменный курс</string>
+    <string formatted="false" name="ent_export">Экспорт</string>
+    <string formatted="false" name="ent_export_data">Экспорт данных</string>
+    <string formatted="false" name="ent_export_selected">Экспорт выделенных в CSV</string>
+    <string formatted="false" name="ent_export_sheet">Экспорт Google sheet</string>
+    <string formatted="false" name="ent_fact">Факт</string>
+    <string formatted="false" name="ent_fd">ФД</string>
+    <string formatted="false" name="ent_file_name">Имя файла</string>
+    <string formatted="false" name="ent_filters">Фильтры</string>
+    <string formatted="false" name="ent_fn">ФН</string>
+    <string formatted="false" name="ent_fp">ФП</string>
+    <string formatted="false" name="ent_help">Справка</string>
+    <string formatted="false" name="ent_import_csv_advanced">Импорт CSV (настраиваемый)</string>
+    <string formatted="false" name="ent_import_csv_financisto">Импорт CSV Financisto</string>
+    <string formatted="false" name="ent_import_csv_fingen">Импорт CSV Finance Manager</string>
+    <string formatted="false" name="ent_import_data">Импорт данных</string>
+    <string formatted="false" name="ent_import_sms">Импорт смс</string>
+    <string formatted="false" name="ent_income">Приход</string>
+    <string formatted="false" name="ent_incoming">Входящие</string>
+    <string formatted="false" name="ent_init_amount_short">нач.</string>
+    <string formatted="false" name="ent_item">Элемент</string>
+    <string formatted="false" name="ent_last4digits">Последние 4 цифры номера карты</string>
+    <string formatted="false" name="ent_last_month">Предыдущий месяц</string>
+    <string formatted="false" name="ent_last_week">Предыдущая неделя</string>
+    <string formatted="false" name="ent_last_year">Предыдущий год</string>
+    <string formatted="false" name="ent_location">Местоположение</string>
+    <string formatted="false" name="ent_locations">Местоположения</string>
+    <string formatted="false" name="ent_max">max</string>
+    <string formatted="false" name="ent_min">min</string>
+    <string formatted="false" name="ent_monday">Понедельник</string>
+    <string formatted="false" name="ent_more">Ещё</string>
+    <string formatted="false" name="ent_name">Название</string>
+    <string formatted="false" name="ent_nested_item">Вложенный элемент</string>
+    <string formatted="false" name="ent_new_account">Новый счет</string>
+    <string formatted="false" name="ent_new_credit">Новый кредит</string>
+    <string formatted="false" name="ent_new_debt">Новый долг</string>
+    <string formatted="false" name="ent_new_department">Новое подразделение</string>
+    <string formatted="false" name="ent_new_project">Новый проект</string>
+    <string formatted="false" name="ent_new_sender">Новый отправитель смс</string>
+    <string formatted="false" name="ent_new_transfer">Новый перевод</string>
+    <string formatted="false" name="ent_outcome">Расход</string>
+    <string formatted="false" name="ent_password">Пароль</string>
+    <string formatted="false" name="ent_path_to_dir_or_file">Путь к каталогу или файлу</string>
+    <string formatted="false" name="ent_path_to_file">Путь к файлу</string>
+    <string formatted="false" name="ent_payee">Получатель</string>
+    <string formatted="false" name="ent_payee_dest_account">Получатель или счет назначения</string>
+    <string formatted="false" name="ent_payee_or_payer">Получатель/Плательщик</string>
+    <string formatted="false" name="ent_payees">Получатели/Плательщики</string>
+    <string formatted="false" name="ent_payer">Плательщик</string>
+    <string formatted="false" name="ent_payment">Платеж</string>
+    <string formatted="false" name="ent_percent">Процент</string>
+    <string formatted="false" name="ent_percents">Проценты</string>
+    <string formatted="false" name="ent_phoneno">Номер телефона</string>
+    <string formatted="false" name="ent_pie_chart">Круг</string>
+    <string formatted="false" name="ent_plan">План</string>
+    <string formatted="false" name="ent_price">Цена</string>
+    <string formatted="false" name="ent_pro_features">Функции PRO</string>
+    <string formatted="false" name="ent_product">Товар</string>
+    <string formatted="false" name="ent_product_list">Список товаров</string>
+    <string formatted="false" name="ent_products">Товары</string>
+    <string formatted="false" name="ent_project">Проект</string>
+    <string formatted="false" name="ent_projects">Проекты</string>
+    <string formatted="false" name="ent_quantity">Количество</string>
+    <string formatted="false" name="ent_read">Чтение</string>
+    <string formatted="false" name="ent_references">Справочники</string>
+    <string formatted="false" name="ent_report">Отчет</string>
+    <string formatted="false" name="ent_reports">Отчеты</string>
+    <string formatted="false" name="ent_search">Поиск</string>
+    <string formatted="false" name="ent_sender">Отправитель смс</string>
+    <string formatted="false" name="ent_senders">Отправители смс</string>
+    <string formatted="false" name="ent_settings">Настройки</string>
+    <string formatted="false" name="ent_show">Показать</string>
+    <string formatted="false" name="ent_skip">Игнор.</string>
+    <string formatted="false" name="ent_sms_body">Текст SMS</string>
+    <string formatted="false" name="ent_sms_markers">Маркеры смс</string>
+    <string formatted="false" name="ent_sms_parser_object">Объект</string>
+    <string formatted="false" name="ent_sms_parser_type">Тип маркера</string>
+    <string formatted="false" name="ent_sms_parser_value">Значение</string>
+    <string formatted="false" name="ent_split_category">Сплит кат.</string>
+    <string formatted="false" name="ent_split_project">Сплит пр.</string>
+    <string formatted="false" name="ent_start_balance">Начальный баланс</string>
+    <string formatted="false" name="ent_start_date">Начальная дата</string>
+    <string formatted="false" name="ent_summary">Сводка</string>
+    <string formatted="false" name="ent_sunday">Воскресенье</string>
+    <string formatted="false" name="ent_sync">Синхронизация</string>
+    <string formatted="false" name="ent_template">Шаблон</string>
+    <string formatted="false" name="ent_templates">Шаблоны</string>
+    <string formatted="false" name="ent_this_month">Текущий месяц</string>
+    <string formatted="false" name="ent_this_week">Текущая неделя</string>
+    <string formatted="false" name="ent_this_year">Текущий год</string>
+    <string formatted="false" name="ent_time">Время</string>
+    <string formatted="false" name="ent_today">Сегодня</string>
+    <string formatted="false" name="ent_total">Итого</string>
+    <string formatted="false" name="ent_transaction">Транзакция</string>
+    <string formatted="false" name="ent_transactions">Транзакции</string>
+    <string formatted="false" name="ent_transfer">Перевод</string>
+    <string formatted="false" name="ent_type">Тип</string>
+    <string formatted="false" name="ent_undefined">Не определено</string>
+    <string formatted="false" name="ent_unknown_product">Неизвестный товар</string>
+    <string formatted="false" name="ent_user">Пользователь</string>
+    <string formatted="false" name="ent_write">Запись</string>
+    <string formatted="false" name="ent_yesterday">Вчера</string>
+    <string formatted="false" name="err_account_name_must_be_unique">Название счета должно быть уникальным</string>
+    <string formatted="false" name="err_category_already_child">Категория уже имет родителя</string>
+    <string formatted="false" name="err_category_already_parent">Категория уже является родителем</string>
+    <string formatted="false" name="err_category_has_children">Категория имеет подкатегории</string>
+    <string formatted="false" name="err_empty_sender">Укажите номер отправителя</string>
+    <string formatted="false" name="err_exrate_one">Обменный курс равен единице. Вы уверены?</string>
+    <string formatted="false" name="err_exrate_zero">Обменный курс не может быть равен нулю.</string>
+    <string formatted="false" name="err_loading_products">Не удалось загрузить товары</string>
+    <string formatted="false" name="err_parse_clipboard">Ошибка разбора сообщения из буфера обмена</string>
+    <string formatted="false" name="err_set_dir">Пожалуйста выберите файл или каталог</string>
+    <string formatted="false" name="err_set_file_name">Пожалуйста введите имя файла</string>
+    <string formatted="false" name="err_set_product">Нужно указать товар</string>
+    <string formatted="false" name="err_specify_account">Укажите счет списания</string>
+    <string formatted="false" name="err_specify_account_currency">Укажите валюту счета</string>
+    <string formatted="false" name="err_specify_account_name">Укажите название счета</string>
+    <string formatted="false" name="err_specify_currency">Укажите валюту</string>
+    <string formatted="false" name="err_split_of_transfers_not_supported">Разбиение переводов не поддерживается</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Додатково"</string>
+    <string formatted="false" name="hint_press_back_to_exit_drag_mode">Нажмите кнопку Назад для выхода из режима перетаскивания</string>
+    <string formatted="false" name="hlp_account_editor_closed">Отметьте, если хотите скрыть счет из списка. Так же нужно отключить опцию Показывать закрытые счета в настройках программы</string>
+    <string formatted="false" name="hlp_account_editor_comment">Укажите комментарий (необязательно)</string>
+    <string formatted="false" name="hlp_account_editor_currency">Нажмите для вызова диалога выбора валюты. В этом же диалоге можно создать новую валюту</string>
+    <string formatted="false" name="hlp_account_editor_emitent">Введите название банка (необязательно)</string>
+    <string formatted="false" name="hlp_account_editor_intro">На этом экране изменяются свойства счета</string>
+    <string formatted="false" name="hlp_account_editor_last4digits">Введите последние 4 цифры номера карты (необязательно)</string>
+    <string formatted="false" name="hlp_account_editor_name">Введите уникальное название счета</string>
+    <string formatted="false" name="hlp_account_editor_start_balance">Введите начальный баланс</string>
+    <string formatted="false" name="hlp_account_editor_type">Выберите из списка тип счета</string>
+    <string formatted="false" name="hlp_tr_editor_account_income">Выберите из списка счет, на который поступают средства</string>
+    <string formatted="false" name="hlp_tr_editor_account_outcome_or_transfer">Выберите из списка счет, с которого списываются средства</string>
+    <string formatted="false" name="hlp_tr_editor_account_transfer">Выберите из списка счет, на который поступают средства</string>
+    <string formatted="false" name="hlp_tr_editor_amount">Укажите сумму транзакции</string>
+    <string formatted="false" name="hlp_tr_editor_amount_dest_account">При переводе средств между счетами в разной валюте, здесь отображается сумма в валюте счета назначения. При ее редактировании автоматически меняется курс обмена валют</string>
+    <string formatted="false" name="hlp_tr_editor_amount_sign">Меняйте тип транзакции - Приход/Расход</string>
+    <string formatted="false" name="hlp_tr_editor_category">Выберите из списка категорию транзакции</string>
+    <string formatted="false" name="hlp_tr_editor_date">Нажмите, чтобы изменить дату транзакции</string>
+    <string formatted="false" name="hlp_tr_editor_dest_account">Выберите из списка счет для зачисления средств. Проведите вправо для перехода в режим Приход/Расход</string>
+    <string formatted="false" name="hlp_tr_editor_exchange_rate">При изменении курса обмена валют, автоматически изменится сумма в валюте счета назначения</string>
+    <string formatted="false" name="hlp_tr_editor_intro">На этом экране изменяются свойства транзакции. Транзакция, это любое перемещение Ваших денежных средств (приход, расход или перевод)</string>
+    <string formatted="false" name="hlp_tr_editor_payee_income">Введите плательщика средств. Проведите влево для перехода в режим перевода между своими счетами</string>
+    <string formatted="false" name="hlp_tr_editor_payee_outcome">Введите получателя средств. Проведите влево для перехода в режим перевода между своими счетами</string>
+    <string formatted="false" name="hlp_tr_editor_time">Нажмите, чтобы изменить время транзакции</string>
+    <string formatted="false" name="msg_camera_access_is_required">Доступ к камере необходим для считывания QR-кода с чека</string>
+    <string formatted="false" name="msg_camera_permission_request_was_denied">Доступ к камере запрещен</string>
+    <string formatted="false" name="msg_camera_permission_was_granted">Доступ к камере предоставлен</string>
+    <string formatted="false" name="msg_confirm_create_correcting_transaction">Баланс счета отличается от указанного в смс на %s. Создать корректирующую транзакцию?</string>
+    <string formatted="false" name="msg_confirm_delete_all_transaction">Удалить все транзакции?</string>
+    <string formatted="false" name="msg_confirm_delete_selected_transactions">Удалить выделенные транзакции?</string>
+    <string formatted="false" name="msg_confirm_delete_transaction">Удалить транзакцию?</string>
+    <string formatted="false" name="msg_confirm_restore_db">Восстановить БД из файла? Программа будет перезапущена.</string>
+    <string formatted="false" name="msg_confirmation_create_credit_percent_transaction">Создать транзакцию с оплатой процентов по кредиту?</string>
+    <string formatted="false" name="msg_db_rebuild_error">При перестроении базы данных произошла ошибка</string>
+    <string formatted="false" name="msg_db_rebuild_success">Перестроение базы данных прошло успешно</string>
+    <string formatted="false" name="msg_db_upgrade">Обновление БД...</string>
+    <string formatted="false" name="msg_delete_account_confirmation">Удалить счет %s? Будут удалены все транзакции по этому счету.</string>
+    <string formatted="false" name="msg_delete_account_set_confirmation">Удалить набор счетов %s?</string>
+    <string formatted="false" name="msg_delete_product_confirmation">Удалить товар?</string>
+    <string formatted="false" name="msg_delete_sms_marker_confirmation">Удалить маркер?</string>
+    <string formatted="false" name="msg_dialog_clear_budget">Удалить бюджет на текущий месяц?</string>
+    <string formatted="false" name="msg_error_on_read_from_db">Ошибка при чтении из базы данных</string>
+    <string formatted="false" name="msg_error_on_write_to_db">Ошибка при записи в базу. Операция отменена.</string>
+    <string formatted="false" name="msg_export_complete_error_1">В процессе экспорта произошла ошибка</string>
+    <string formatted="false" name="msg_export_complete_ok">Экспорт завершён</string>
+    <string formatted="false" name="msg_file_not_exist">Файл не существует</string>
+    <string formatted="false" name="msg_fts_login_html"><![CDATA[<p>Для получения возможности скачивания списка товаров из чека:</p><p>&nbsp;&nbsp;&nbsp; 1. Установите приложение "<strong>Проверка касcового чека</strong>" (автор <strong>АО ГНИВЦ</strong>).</p><p>&nbsp;&nbsp;&nbsp; 2. Зарегистрируйтесь в нем при помощи номера мобильного телефона и получите код по смс.</p><p>&nbsp;&nbsp;&nbsp; 3. Введите номер телефона и код в форму ниже.</p><p>&nbsp;&nbsp;&nbsp; 4. Нажмите "<strong>Сохранить</strong>".</p>]]></string>
+    <string formatted="false" name="msg_import_complete_error_1">В процессе импорта произошла ошибка</string>
+    <string formatted="false" name="msg_import_complete_ok">Импорт завершён</string>
+    <string formatted="false" name="msg_inapp_purchases_not_avaliable">Функции PRO не доступны. Возможно на устройстве нет учетной записи Google.</string>
+    <string formatted="false" name="msg_invalid_data_in_fields">Не все поля заполнены корректно</string>
+    <string formatted="false" name="msg_path_is_empty">Укажите путь к файлу</string>
+    <string formatted="false" name="msg_permission_is_not_available">Пожалуйста, дайте разрешение на использование камеры</string>
+    <string formatted="false" name="msg_permission_location_denied">Координаты не определены, так как разрешение не было получено.</string>
+    <string formatted="false" name="msg_permission_location_never_askagain">Координаты не определены, так как разрешение не было получено.</string>
+    <string formatted="false" name="msg_permission_location_rationale">Для определения координат необходимо разрешение. Нажмите Далее и разрешите доступ к данным о местоположении устройтсва.</string>
+    <string formatted="false" name="msg_permission_read_external_storage_denied">Файл не загружен, так как разрешение не было получено.</string>
+    <string formatted="false" name="msg_permission_read_external_storage_never_askagain">Файл не загружен, так как разрешение не было получено.</string>
+    <string formatted="false" name="msg_permission_read_external_storage_rationale">Для загрузки файла необходимо разрешение. Нажмите Далее и разрешите доступ к файлам.</string>
+    <string formatted="false" name="msg_permission_read_sms_denied">Импорт отменен, так как разрешение на чтение сообщений не было получено.</string>
+    <string formatted="false" name="msg_permission_read_sms_never_askagain">Импорт отменен, так как разрешение не было получено.</string>
+    <string formatted="false" name="msg_permission_read_sms_rationale">Для импорта сообщений неоходимо разрешение. Нажмите Далее и разрешите работу с сообщениями.</string>
+    <string formatted="false" name="msg_permission_recieve_sms_rationale">В программе созданы маркеры или отправители смс, но разрешения на получение сообщений нет. Нажмите Далее и разрешите работу с сообщениями.</string>
+    <string formatted="false" name="msg_permission_rw_external_storage_denied">Операция не выполнена, так как разрешение не было получено.</string>
+    <string formatted="false" name="msg_permission_rw_external_storage_never_askagain">Операция не выполнена, так как разрешение не было получено.</string>
+    <string formatted="false" name="msg_permission_rw_external_storage_rationale">Для работы системы резервного копирования необходимо разрешение. Нажмите Далее и разрешите доступ к файлам.</string>
+    <string formatted="false" name="msg_permission_write_external_storage_denied">Файл не сохранен, так как разрешение не было получено.</string>
+    <string formatted="false" name="msg_permission_write_external_storage_never_askagain">Файл не сохранен, так как разрешение не было получено.</string>
+    <string formatted="false" name="msg_permission_write_external_storage_rationale">Для записи файла необходимо разрешение. Нажмите Далее и разрешите доступ к файлам.</string>
+    <string formatted="false" name="msg_press_back_again_to_exit">Нажмите еще раз для выхода</string>
+    <string formatted="false" name="msg_select_marker_text_before">Сначала выделите текст маркера в теле сообщения</string>
+    <string formatted="false" name="msg_select_marker_type">Выберите тип маркера</string>
+    <string formatted="false" name="msg_select_subscription_type">Выберите тип подписки</string>
+    <string formatted="false" name="msg_set_date">Укажите дату</string>
+    <string formatted="false" name="msg_set_time">Укажите время</string>
+    <string formatted="false" name="msg_thanks_for_purchase_reports">Спасибо за покупку! Для построения графических отчетов перейдите на вкладку "Транзакции", потяните вверх нижнюю панель и нажмите на кнопку построения графиков. Отчеты строятся по отображенным в списке транзакциям, с учетом всех фильтров.</string>
+    <string formatted="false" name="new_new_location">Новое местоположение</string>
+    <string name="notices_close">Закрити</string>
+    <string name="notices_title">Ліцензії відкритого коду</string>
+    <string formatted="false" name="notif_count_of_new_transactions">Новых транзакций:</string>
+    <string formatted="false" name="notif_create_correcting_transaction">Баланс счета %s отличается от указанного в смс на %s. Нажмите для корректировки.</string>
+    <string formatted="false" name="notif_create_correcting_transaction_caption">Баланс отличается от указанного в смс.</string>
+    <string formatted="false" name="notif_ticker_transaction_auto_created">Транзакция создана</string>
+    <string name="notification_sound_default">"Сигнал сповіщень за умовчанням"</string>
+    <string formatted="false" name="ok">OK</string>
+    <string formatted="false" name="pin_code_fingerprint_not_recognized">Отпечаток пальца не распознан. Попробуйте еще раз.</string>
+    <string formatted="false" name="pin_code_fingerprint_success">Отпечаток пальца распознан</string>
+    <string formatted="false" name="pin_code_fingerprint_text">Отпечаток пальца</string>
+    <string formatted="false" name="pin_code_forgot_text">Забыли?</string>
+    <string formatted="false" name="pin_code_step_change">Введите текущий пин-код</string>
+    <string formatted="false" name="pin_code_step_create">Создайте код из %d цифр</string>
+    <string formatted="false" name="pin_code_step_disable">Отключение защиты\nВведите текущий пин-код</string>
+    <string formatted="false" name="pin_code_step_enable_confirm">Подтвердите пин-код</string>
+    <string formatted="false" name="pin_code_step_unlock">Введите Ваш пин-код</string>
+    <string formatted="false" name="pref_enable_scan_qr">Вкл. сканер чеков</string>
+    <string formatted="false" name="pref_expand_lists">Разворачивать вложенные списки</string>
+    <string formatted="false" name="pref_first_day_of_week">Первый день недели</string>
+    <string formatted="false" name="pref_fts_credentials">Учетные данные ФНС</string>
+    <string formatted="false" name="pref_header_accounts_list">Список счетов</string>
+    <string formatted="false" name="pref_header_general">Общие настройки</string>
+    <string formatted="false" name="pref_header_security">Безопасность</string>
+    <string formatted="false" name="pref_header_sms">Работа с SMS</string>
+    <string formatted="false" name="pref_header_transactions">Транзакции</string>
+    <string formatted="false" name="pref_hide_sums_panel">Скрывать панель с суммами</string>
+    <string formatted="false" name="pref_pin_lock_timeout">Таймаут блокировки, сек.</string>
+    <string formatted="false" name="pref_summary_auto_create_transaction_on_full_set_of_patterns">При наличии в смс маркеров, указанных в условиях автоматического создания</string>
+    <string formatted="false" name="pref_summary_compact_view_mode">Необходим перезапуск приложения</string>
+    <string formatted="false" name="pref_summary_start_tab">Вкладка, которая будет открыта при запуске приложения</string>
+    <string formatted="false" name="pref_tab_order">Порядок вкладок на главном экране</string>
+    <string formatted="false" name="pref_title_account_click_action">Действие, при нажатии на счет</string>
+    <string formatted="false" name="pref_title_account_click_action_list">Показать транзакции</string>
+    <string formatted="false" name="pref_title_account_click_action_new">Новая транзакция</string>
+    <string formatted="false" name="pref_title_accounts_list_show_closed">Показывать закрытые счета</string>
+    <string formatted="false" name="pref_title_accounts_list_show_credits">Показывать кредитные счета</string>
+    <string formatted="false" name="pref_title_accounts_show_income_expense_for_accounts">Показывать приход и расход для счетов</string>
+    <string formatted="false" name="pref_title_auto_create_prerequisites">Условия для автоматического создания</string>
+    <string formatted="false" name="pref_title_auto_create_transaction_on_full_set_of_patterns">Автоматически создавать транзакции</string>
+    <string formatted="false" name="pref_title_balance_compare_error">Мин. разница балансов</string>
+    <string formatted="false" name="pref_title_change_pin">Сменить пин-код</string>
+    <string formatted="false" name="pref_title_check_actual_balance_in_sms">Сравнивать баланс счета с балансом в смс</string>
+    <string formatted="false" name="pref_title_colored_tags">Цветные метки категорий и проектов</string>
+    <string formatted="false" name="pref_title_compact_view_mode">Компактный режим просмотра списков</string>
+    <string formatted="false" name="pref_title_detect_locations">Автоматич. определять местоположение</string>
+    <string formatted="false" name="pref_title_enable_pin_lock">Включить защиту пин-кодом</string>
+    <string formatted="false" name="pref_title_payee_autocomplete">Выпадающий список</string>
+    <string formatted="false" name="pref_title_payee_window">Список в отдельном окне</string>
+    <string formatted="false" name="pref_title_pin_length">Длина пин-кода</string>
+    <string formatted="false" name="pref_title_remember_last_account">Запоминать последний счет</string>
+    <string formatted="false" name="pref_title_select_payee_style">Стиль выбора получателя/плательщика</string>
+    <string formatted="false" name="pref_title_show_transaction_type_titles">Отобр. назв. типов транзакций</string>
+    <string formatted="false" name="pref_title_start_tab">Стартовая вкладка</string>
+    <string formatted="false" name="pref_title_theme">Тема оформления</string>
+    <string formatted="false" name="pref_title_theme_dark">Темная</string>
+    <string formatted="false" name="pref_title_theme_light">Светлая</string>
+    <string formatted="false" name="pref_title_tredit_layout_constructor">Настройка редактора транзакций</string>
+    <string name="ringtone_default">"Мелодія за умовчанням"</string>
+    <string name="ringtone_default_with_actual">"За умовчанням (<ns1:g id="ACTUAL_RINGTONE">%1$s</ns1:g>)"</string>
+    <string name="ringtone_picker_title">"Мелодії"</string>
+    <string name="ringtone_picker_title_alarm">"Сигнали будильника"</string>
+    <string name="ringtone_picker_title_notification">"Сигнали сповіщень"</string>
+    <string name="ringtone_silent">"Немає"</string>
+    <string name="ringtone_unknown">"Невідомо"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Пошук"</string>
+    <string formatted="false" name="sort_type_asc">По возрастанию</string>
+    <string formatted="false" name="sort_type_desc">По убыванию</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string formatted="false" name="title_reset_default_department">Сбросить подразделение по умолчанию</string>
+    <string formatted="false" name="title_select_department">Выберите подразделение</string>
+    <string formatted="false" name="title_select_location">Выберите местоположение</string>
+    <string formatted="false" name="title_select_project">Выберите проект</string>
+    <string formatted="false" name="title_select_sender">Выберите отправителя смс</string>
+    <string formatted="false" name="title_senders_add_credit_limit_to_balance">Добавлять кредитный лимит в баланс</string>
+    <string formatted="false" name="title_senders_phone_no">Номера телефонов отправителей</string>
+    <string formatted="false" name="toast_pin_disabled">Защита пин-кодом выключена</string>
+    <string formatted="false" name="toast_pin_enabled">Защита пин-кодом включена</string>
+    <string formatted="false" name="ttl__allow_auto_create_transactions">Автоматически создавать транзакции</string>
+    <string formatted="false" name="ttl_accounts_sort_order">Порядок</string>
+    <string formatted="false" name="ttl_accounts_sort_type">Сортировать по ...</string>
+    <string formatted="false" name="ttl_add_product">Добавление товара</string>
+    <string formatted="false" name="ttl_app_name_full">Финансовый менеджер</string>
+    <string formatted="false" name="ttl_app_version">Версия</string>
+    <string formatted="false" name="ttl_attach_receipt_to">Прикрепить чек к транзакции:</string>
+    <string formatted="false" name="ttl_auto_backup_info">Резервные копии создаются автоматически и сохраняются на карте памяти в папке Fingen/\Backup</string>
+    <string formatted="false" name="ttl_available_system_currencies">Доступные системные валюты</string>
+    <string formatted="false" name="ttl_billing_error">При соединении с сервером произошла ошибка (код %s)</string>
+    <string formatted="false" name="ttl_change_selected_param">Изменить</string>
+    <string formatted="false" name="ttl_changelog">Список изменений</string>
+    <string formatted="false" name="ttl_confirm_action">Подтвердите действие</string>
+    <string formatted="false" name="ttl_connection_params">Параметры подключения</string>
+    <string formatted="false" name="ttl_create_new_payee_from_marker">Создать нового получателя/плательщика %s или выбрать имеющегося?</string>
+    <string formatted="false" name="ttl_delete_all_sms_confirmation">Удалить все сообщения?</string>
+    <string formatted="false" name="ttl_delete_cabbage_confirmation">Удалить валюту?</string>
+    <string formatted="false" name="ttl_delete_category_confirmation">Удалить категорию?</string>
+    <string formatted="false" name="ttl_delete_children_category">Удалить вложенные категории</string>
+    <string formatted="false" name="ttl_delete_credit_confirmation">Удалить кредит?</string>
+    <string formatted="false" name="ttl_delete_debt_confirmation">Удалить долг?</string>
+    <string formatted="false" name="ttl_delete_department_confirmation">Удалить подразделение?</string>
+    <string formatted="false" name="ttl_delete_item_confirm">Удалить элемент?</string>
+    <string formatted="false" name="ttl_delete_location_confirmation">Удалить местоположение?</string>
+    <string formatted="false" name="ttl_delete_payee_confirmation">Удалить получателя/плательщика?</string>
+    <string formatted="false" name="ttl_delete_project_confirmation">Удалить проект?</string>
+    <string formatted="false" name="ttl_delete_sender_confirmation">Удалить отправителя смс?</string>
+    <string formatted="false" name="ttl_delete_sms_confirmation">Удалить сообщение?</string>
+    <string formatted="false" name="ttl_delete_template_confirmation">Удалить шаблон?</string>
+    <string formatted="false" name="ttl_delete_user">Удалить пользователя?</string>
+    <string formatted="false" name="ttl_do_not_create_duplicates">Не создавать повторяющиеся транзакции</string>
+    <string formatted="false" name="ttl_do_not_show_again">Больше не показывать</string>
+    <string formatted="false" name="ttl_dropbox_account">Учетная запись Dropbox</string>
+    <string formatted="false" name="ttl_edit_currency">Редактирование валюты</string>
+    <string formatted="false" name="ttl_edit_payee">Изменение получателя/плательщика</string>
+    <string formatted="false" name="ttl_edit_product">Редактирование товара</string>
+    <string formatted="false" name="ttl_edit_sms_parser_marker">Редактирование маркера</string>
+    <string formatted="false" name="ttl_email_body">Напишите свой вопрос</string>
+    <string formatted="false" name="ttl_email_subject">Вопрос по приложению Fingen</string>
+    <string formatted="false" name="ttl_enable_auto_backup">Включить ежедневное автоматическое резервное копирование</string>
+    <string formatted="false" name="ttl_enable_backup_password_protection">Защищать резервные копии паролем</string>
+    <string formatted="false" name="ttl_enable_backup_to_dropbox">Загружать резервные копии в Dropbox</string>
+    <string formatted="false" name="ttl_enter_actual_balance">Введите актуальный баланс</string>
+    <string formatted="false" name="ttl_enter_email">Введите email пользователя (Google)</string>
+    <string formatted="false" name="ttl_enter_new_name">Введите новое название</string>
+    <string formatted="false" name="ttl_enter_password">Введите пароль</string>
+    <string formatted="false" name="ttl_error">Ошибка</string>
+    <string formatted="false" name="ttl_export_products">Выгружать товары</string>
+    <string formatted="false" name="ttl_i_borrewed">Взято в долг:</string>
+    <string formatted="false" name="ttl_i_lent">Дано в долг:</string>
+    <string formatted="false" name="ttl_import_complete">Импорт завершен</string>
+    <string formatted="false" name="ttl_item_unavailible">Недоступно</string>
+    <string formatted="false" name="ttl_last_backup_to_dropbox">Последнее сохранение в Dropbox:</string>
+    <string formatted="false" name="ttl_loading_products">Загрузка товаров...</string>
+    <string formatted="false" name="ttl_loan_closed">Долг закрыт</string>
+    <string formatted="false" name="ttl_manage_permissions">Управление правами доступа</string>
+    <string formatted="false" name="ttl_min_price">От %s/месяц</string>
+    <string formatted="false" name="ttl_move_residue">Добавить %s к сумме транзакции</string>
+    <string formatted="false" name="ttl_new_currency">Новая валюта</string>
+    <string formatted="false" name="ttl_new_filter">Новый фильтр</string>
+    <string formatted="false" name="ttl_new_payee">Новый получатель/плательщик</string>
+    <string formatted="false" name="ttl_new_product">Новый товар</string>
+    <string formatted="false" name="ttl_no_chart_data">Нет данных</string>
+    <string formatted="false" name="ttl_not">НЕ</string>
+    <string formatted="false" name="ttl_not_now">Не сейчас</string>
+    <string formatted="false" name="ttl_on">ВКЛ</string>
+    <string formatted="false" name="ttl_pull_to_create_account">Потяните вверх для создания нового счета</string>
+    <string formatted="false" name="ttl_purchased">Приобретено</string>
+    <string formatted="false" name="ttl_rebuild_db">Перестроить БД</string>
+    <string formatted="false" name="ttl_replace_exists">Заменять имеющиеся</string>
+    <string formatted="false" name="ttl_scan_qr">Скан чека</string>
+    <string formatted="false" name="ttl_select_accounts">Выберите счета</string>
+    <string formatted="false" name="ttl_select_action">Выберите действие</string>
+    <string formatted="false" name="ttl_select_category">Выберите категории</string>
+    <string formatted="false" name="ttl_select_color">Выбор цвета</string>
+    <string formatted="false" name="ttl_select_csv_file">Выберите файл CSV</string>
+    <string formatted="false" name="ttl_select_db_file">Выберите файл</string>
+    <string formatted="false" name="ttl_select_departments">Выберите подразделения</string>
+    <string formatted="false" name="ttl_select_export_dir">Выберите файл или каталог</string>
+    <string formatted="false" name="ttl_select_locations">Выберите местоположения</string>
+    <string formatted="false" name="ttl_select_parent_item">Выберите родительский элемент</string>
+    <string formatted="false" name="ttl_select_payee">Выберите получателя/плательщика</string>
+    <string formatted="false" name="ttl_select_payees">Выберите получателей/плательщиков</string>
+    <string formatted="false" name="ttl_select_projects">Выберите проекты</string>
+    <string formatted="false" name="ttl_select_simpledebts">Выберите долги</string>
+    <string formatted="false" name="ttl_select_system_currency">Валюты по умолчанию</string>
+    <string formatted="false" name="ttl_select_template">Выберите шаблон</string>
+    <string formatted="false" name="ttl_select_text_to_add_marker">Выделите текст для добавления маркера</string>
+    <string formatted="false" name="ttl_selected">выделено</string>
+    <string formatted="false" name="ttl_selection">Выделение</string>
+    <string formatted="false" name="ttl_set_fields_links">Укажите соответствие сущностей полям в файле</string>
+    <string formatted="false" name="ttl_skip_duplicates">Пропускать дубликаты</string>
+    <string formatted="false" name="ttl_skip_lines">Пропустить строк</string>
+    <string formatted="false" name="ttl_sms_body">Текст SMS</string>
+    <string formatted="false" name="ttl_sms_created">Создано входящих смс</string>
+    <string formatted="false" name="ttl_sms_skipped">Пропущено входящих смс</string>
+    <string formatted="false" name="ttl_sort_accounts">Сортировка счетов</string>
+    <string formatted="false" name="ttl_sort_items_confirmation">Отсортировать список по алфавиту?</string>
+    <string formatted="false" name="ttl_split_unknown">Не распределено</string>
+    <string formatted="false" name="ttl_sqlite_version">Версия SQLite: </string>
+    <string formatted="false" name="ttl_src_transaction_amount">Остаток</string>
+    <string formatted="false" name="ttl_subscribed">Активно</string>
+    <string formatted="false" name="ttl_summary_items">Элементы списка "Сводка"</string>
+    <string formatted="false" name="ttl_sync_iap_summary">Позволяет вести учет на разных устройствах</string>
+    <string formatted="false" name="ttl_sync_iap_title">Синхронизация данных между устройствами</string>
+    <string formatted="false" name="ttl_template_name">Название шаблона</string>
+    <string formatted="false" name="ttl_third_party_license">Сторонние лицензии</string>
+    <string formatted="false" name="ttl_total_I_owe">Итого я должен:</string>
+    <string formatted="false" name="ttl_total_owe_me">Итого мне должны:</string>
+    <string formatted="false" name="ttl_total_sms_found">Найдено смс</string>
+    <string formatted="false" name="ttl_transaction_deleted">Транзакция удалена</string>
+    <string formatted="false" name="ttl_transaction_splitted">Транзакция разделена</string>
+    <string formatted="false" name="ttl_transactions_created">Создано транзакций</string>
+    <string formatted="false" name="ttl_transactions_skipped">Пропущено транзакций</string>
+    <string formatted="false" name="ttl_you_can_edit_later">Параметры можно изменить позже в настройках</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ВИМКНЕНО"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"УВІМКНЕНО"</string>
+</resources>

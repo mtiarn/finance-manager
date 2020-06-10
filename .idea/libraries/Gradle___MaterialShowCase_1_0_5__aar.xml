@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: :MaterialShowCase-1.0.5:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec3ecc3bdb5a5a96c7f6dcfc98549f5d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec3ecc3bdb5a5a96c7f6dcfc98549f5d/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

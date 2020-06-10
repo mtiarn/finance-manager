@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+    <changelogversion versionName="1.1.3" changeDate=">2020.06.08">
+        <changelogtext>Исправление ошибок</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.1.2" changeDate=">2020.05.30">
+        <changelogtext>Исправление ошибок</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.1.1" changeDate=">2020.04.26">
+        <changelogtext>Добавлена возможность создания смс из интента</changelogtext>
+        <changelogtext>Исправлены проблемы с уведомлениями</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.1" changeDate=">2020.04.18">
+        <changelogtext>Исправление проблем с чтением смс</changelogtext>
+        <changelogtext>Исправление ошибок</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.0.2" changeDate=">2018.03.28">
+        <changelogtext>Добавлена настройка запоминать последний счет"</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.0.1" changeDate=">2020.03.25">
+        <changelogtext>Исправление ошибок</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.0" changeDate=">2020.03.05">
+        <changelogtext>Первая версия</changelogtext>
+        <changelogtext>Когда бабки вернешь?</changelogtext>
+    </changelogversion>
+</changelog>

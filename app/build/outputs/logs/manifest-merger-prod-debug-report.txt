@@ -1,0 +1,856 @@
+-- Merging decision tree log ---
+data
+INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:261:17-58
+	android:scheme
+		INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:261:23-56
+meta-data#com.google.android.geo.API_KEY
+INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:278:9-280:44
+	android:value
+		INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:280:13-42
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:279:13-58
+meta-data#io.fabric.ApiKey
+INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:281:9-283:46
+	android:value
+		INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:283:13-44
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:282:13-44
+manifest
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:2:1-289:12
+INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:2:1-289:12
+INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:2:1-289:12
+INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:2:1-289:12
+MERGED from [com.l4digital.fastscroll:fastscroll:1.0.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/131a8bbd96e6c1f6966b889f9b665ce7/AndroidManifest.xml:17:1-27:12
+MERGED from [com.mikepenz:materialdrawer:6.0.7] /Users/misha/.gradle/caches/transforms-2/files-2.1/6dfa322f7323c24cf0b569505e874d8a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/4d82e3d6c4677591324b1abeb24b3066/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/2b22335883be612831ddee25565aab14/AndroidManifest.xml:17:1-22:12
+MERGED from [net.xpece.android:support-preference:2.1.2] /Users/misha/.gradle/caches/transforms-2/files-2.1/cdbfc86814eafcca4a09176e480b4f16/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:preference-v7:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/b78368ea9e60b1fa86d9c0fd7a285f53/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.gabrielemariotti.changeloglib:changelog:2.1.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/6f59879942fcbe76b9ca2969d6baa301/AndroidManifest.xml:2:1-13:12
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/3463eadc0d5eec71555e6cf55bbac992/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/2b7edc0fc2ee579a6b1d2d263778092d/AndroidManifest.xml:17:1-22:12
+MERGED from [eu.davidea:flipview:1.1.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/5435214b24103ed9afba2f03314f5207/AndroidManifest.xml:2:1-12:12
+MERGED from [ru.tinkoff.decoro:decoro:1.3.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/1e2b160fbf1f6dd2e2fe511a1cac4f89/AndroidManifest.xml:2:1-14:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/8778665d27cd7755c2efded5f0962787/AndroidManifest.xml:2:1-7:12
+MERGED from [com.evernote:android-job:1.2.5] /Users/misha/.gradle/caches/transforms-2/files-2.1/7b57f575340eba772d0f22d06ceefc20/AndroidManifest.xml:2:1-65:12
+MERGED from [com.github.QuadFlask:colorpicker:0.0.13] /Users/misha/.gradle/caches/transforms-2/files-2.1/07ed833101804503b2f63cc34c42dde5/AndroidManifest.xml:2:1-14:12
+MERGED from [de.psdev.licensesdialog:licensesdialog:1.8.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/1e9a7e6ac13555f53d49c460825db38e/AndroidManifest.xml:16:6-20:12
+MERGED from [com.github.omadahealth:lollipin:2.1.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/b610ef469cc04778f54ddd02c26841c8/AndroidManifest.xml:2:1-18:12
+MERGED from [net.xpece.android:support-spinner:2.1.2] /Users/misha/.gradle/caches/transforms-2/files-2.1/617ed8905af9c2e4851ec4a8c616b3a0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/1da5223cd0889b6bfbcaa5b715f2486b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v13:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/1203d330a3e906f1e2cb8fcf8d062302/AndroidManifest.xml:17:1-22:12
+MERGED from [com.airbnb.android:airmapview:1.6.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/eac5ea5305920daedafb4c29b6c7dc3e/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/b18710228eef04e720a706499d236e1a/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/7799002ddb15b25ae9da1c85516f128c/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/3d4e28a8bc75ca32b4a9401344a9bf8c/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/76016b95eaafc4d644d5a4ae29540b49/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/459bea1d7bb5845edc03bed280eb8e50/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/c75d2aac448decdb1fc753c07fac2a41/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/ec1c161c4454469e31ed665f588f0b33/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/1a2e3a8f1e1855ade78f8353f5ba9bee/AndroidManifest.xml:17:1-22:12
+MERGED from [io.requery:sqlite-android:3.20.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/ce96e12b5444b34e6fd1dd195d891cf0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/438e4e8993670ef3a09afa14dde12bee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/5e896f06cbaf08edb2211e0d5252c90a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/da974ebaea803e79f164f86fbf81088b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/f986a1df7b2ef1c2fc4db0c11f378f77/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/81cae9b936b12d5b8872e5927bff3ca9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/0095afb0ea12ae20f3bfbe0736ea86e9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/e2f51119b3176a199d5165a03ff34470/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/c15d4fd094d4fd167f6ea222354db3e5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/cadf4e67ee4cc6585b27bba46dae6e40/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/bb7db296fc587c64d814a4033f0600b3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/089ad412e86ad7b58a7b2a129afb0fb9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/cf13d225b849e574d478e4f26bfe7743/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/6ffa15d6d06df0dd745b7cf176c22373/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/437381cf8277cea172f365d55d772605/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/84123a9f0f5e0dd96980250343ef21de/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/ff6af5ea4dadf64c6d4991f577c17538/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/de9e6f5dcab67cadc18d96b98da0c980/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/f3df4712aec6ce68f04152a6b9f1e951/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/84ea1fc82359d3d6c0b71bb811bae341/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/54860a73242f980637503d9843eff48d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/efe45dadaf3af9b13894853c2b1e339f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/f03268a087fae015b283f90e150f6321/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/a25a4568fd1331ddfe6a7251f0272bcf/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/8699e5cc91be53cffb0a8a20a48574e5/AndroidManifest.xml:17:1-22:12
+MERGED from [:MaterialShowCase-1.0.5:] /Users/misha/.gradle/caches/transforms-2/files-2.1/ec3ecc3bdb5a5a96c7f6dcfc98549f5d/AndroidManifest.xml:2:1-11:12
+MERGED from [:HeaderDecor-0.2.7:] /Users/misha/.gradle/caches/transforms-2/files-2.1/1a0302f9d801082cc9346290858fdf01/AndroidManifest.xml:17:1-29:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/ae24965676dd1cb1a949cdb9aa04bbf7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.dlazaro66.qrcodereaderview:qrcodereaderview:2.0.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/4caba7d3a8f8dabd1e59f5b0d8c53491/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.angads25:filepicker:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/931017f88a746caa7511ab599a697aeb/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.hotchemi:permissionsdispatcher:3.1.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/e9c7cbccdcdc24d43a144fb1cc4c2fc1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.mikepenz:actionitembadge:3.3.2] /Users/misha/.gradle/caches/transforms-2/files-2.1/6e2b0f9c016bb73726ebb9fa146dae2e/AndroidManifest.xml:2:1-12:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /Users/misha/.gradle/caches/transforms-2/files-2.1/86c2d7224c367ce08d192ca686f0b66b/AndroidManifest.xml:2:1-19:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/dbac2aa878c93a3cc8d01cb2e69ca3b7/AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.maps.android:android-maps-utils:0.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/1ceb1f05288ff41c5ff1865aa0de1453/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/a49813ec75bce538496ba3192b101a66/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/d068e45fb68884b00df86c37fc7dad55/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/misha/.gradle/caches/transforms-2/files-2.1/fe4b81aaab4bf266696764ec75573a6a/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/e825f8fc708edb85c07a59810bd0d2cd/AndroidManifest.xml:22:1-33:12
+MERGED from [com.github.traex.rippleeffect:ripple:1.3.1-OG] /Users/misha/.gradle/caches/transforms-2/files-2.1/602a852e67a7da1023478fcef9fe5266/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.omadahealth.typefaceview:typefaceview:1.5.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/ebccad81b3fc25935b0b61f9d0180391/AndroidManifest.xml:2:1-16:12
+MERGED from [com.mikepenz:materialize:1.1.2] /Users/misha/.gradle/caches/transforms-2/files-2.1/81a842378ed7e4e5dd8533484f634699/AndroidManifest.xml:2:1-12:12
+MERGED from [com.mikepenz:iconics-core:3.0.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/83c8bc160ec272bc4da357069304091e/AndroidManifest.xml:2:1-12:12
+MERGED from [com.mikepenz:fastadapter:3.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/a57a13afae3468d5c083aeadddcdebb0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.mikepenz:fastadapter-extensions-expandable:3.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/e9720979ad4e76314678797dcd86b144/AndroidManifest.xml:2:1-12:12
+INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:2:1-289:12
+INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:2:1-289:12
+INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:2:1-289:12
+	package
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:4:11-39
+		INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:2:1-289:12
+		INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:3:11-57
+	android:versionCode
+		INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:2:1-289:12
+		INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:6:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/b18710228eef04e720a706499d236e1a/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/b18710228eef04e720a706499d236e1a/AndroidManifest.xml:20:5-66
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /Users/misha/.gradle/caches/transforms-2/files-2.1/86c2d7224c367ce08d192ca686f0b66b/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /Users/misha/.gradle/caches/transforms-2/files-2.1/86c2d7224c367ce08d192ca686f0b66b/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/a49813ec75bce538496ba3192b101a66/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/a49813ec75bce538496ba3192b101a66/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/d068e45fb68884b00df86c37fc7dad55/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/d068e45fb68884b00df86c37fc7dad55/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/misha/.gradle/caches/transforms-2/files-2.1/fe4b81aaab4bf266696764ec75573a6a/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/misha/.gradle/caches/transforms-2/files-2.1/fe4b81aaab4bf266696764ec75573a6a/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/e825f8fc708edb85c07a59810bd0d2cd/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/e825f8fc708edb85c07a59810bd0d2cd/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:7:5-69
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:7:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:9:5-79
+MERGED from [com.github.angads25:filepicker:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/931017f88a746caa7511ab599a697aeb/AndroidManifest.xml:11:5-80
+MERGED from [com.github.angads25:filepicker:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/931017f88a746caa7511ab599a697aeb/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:9:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:11:5-80
+MERGED from [com.evernote:android-job:1.2.5] /Users/misha/.gradle/caches/transforms-2/files-2.1/7b57f575340eba772d0f22d06ceefc20/AndroidManifest.xml:14:5-81
+MERGED from [com.evernote:android-job:1.2.5] /Users/misha/.gradle/caches/transforms-2/files-2.1/7b57f575340eba772d0f22d06ceefc20/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:12:5-78
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:13:5-67
+MERGED from [com.evernote:android-job:1.2.5] /Users/misha/.gradle/caches/transforms-2/files-2.1/7b57f575340eba772d0f22d06ceefc20/AndroidManifest.xml:12:5-68
+MERGED from [com.evernote:android-job:1.2.5] /Users/misha/.gradle/caches/transforms-2/files-2.1/7b57f575340eba772d0f22d06ceefc20/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:13:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:14:5-77
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:14:22-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:15:22-79
+uses-permission#com.android.vending.BILLING
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:16:5-66
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:16:22-64
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:17:5-87
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:17:22-85
+uses-permission#com.mtiarn.finance.gcm.permission.C2D_MESSAGE
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:18:5-84
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:18:22-82
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:19:5-78
+MERGED from [com.evernote:android-job:1.2.5] /Users/misha/.gradle/caches/transforms-2/files-2.1/7b57f575340eba772d0f22d06ceefc20/AndroidManifest.xml:13:5-79
+MERGED from [com.evernote:android-job:1.2.5] /Users/misha/.gradle/caches/transforms-2/files-2.1/7b57f575340eba772d0f22d06ceefc20/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/b18710228eef04e720a706499d236e1a/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/b18710228eef04e720a706499d236e1a/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:19:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:20:5-64
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:20:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:22:5-24:35
+	android:required
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:23:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:25:5-27:35
+	android:required
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:26:9-57
+application
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:29:5-287:19
+REJECTED from [com.android.support:design:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/4d82e3d6c4677591324b1abeb24b3066/AndroidManifest.xml:22:5-20
+REJECTED from [net.xpece.android:support-preference:2.1.2] /Users/misha/.gradle/caches/transforms-2/files-2.1/cdbfc86814eafcca4a09176e480b4f16/AndroidManifest.xml:9:5-10:19
+REJECTED from [com.github.gabrielemariotti.changeloglib:changelog:2.1.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/6f59879942fcbe76b9ca2969d6baa301/AndroidManifest.xml:11:5-20
+REJECTED from [com.sothree.slidinguppanel:library:3.4.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/3463eadc0d5eec71555e6cf55bbac992/AndroidManifest.xml:9:5-20
+REJECTED from [ru.tinkoff.decoro:decoro:1.3.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/1e2b160fbf1f6dd2e2fe511a1cac4f89/AndroidManifest.xml:12:5-20
+REJECTED from [com.evernote:android-job:1.2.5] /Users/misha/.gradle/caches/transforms-2/files-2.1/7b57f575340eba772d0f22d06ceefc20/AndroidManifest.xml:16:5-63:19
+REJECTED from [com.github.QuadFlask:colorpicker:0.0.13] /Users/misha/.gradle/caches/transforms-2/files-2.1/07ed833101804503b2f63cc34c42dde5/AndroidManifest.xml:12:5-20
+REJECTED from [de.psdev.licensesdialog:licensesdialog:1.8.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/1e9a7e6ac13555f53d49c460825db38e/AndroidManifest.xml:19:5-19
+REJECTED from [com.github.omadahealth:lollipin:2.1.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/b610ef469cc04778f54ddd02c26841c8/AndroidManifest.xml:13:5-16:19
+REJECTED from [net.xpece.android:support-spinner:2.1.2] /Users/misha/.gradle/caches/transforms-2/files-2.1/617ed8905af9c2e4851ec4a8c616b3a0/AndroidManifest.xml:8:5-20
+REJECTED from [com.airbnb.android:airmapview:1.6.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/eac5ea5305920daedafb4c29b6c7dc3e/AndroidManifest.xml:10:5-20
+REJECTED from [com.google.android.gms:play-services-maps:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/b18710228eef04e720a706499d236e1a/AndroidManifest.xml:24:5-19
+REJECTED from [com.google.android.gms:play-services-base:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/7799002ddb15b25ae9da1c85516f128c/AndroidManifest.xml:18:5-20:19
+REJECTED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/3d4e28a8bc75ca32b4a9401344a9bf8c/AndroidManifest.xml:4:5-19
+REJECTED from [com.google.android.gms:play-services-basement:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/76016b95eaafc4d644d5a4ae29540b49/AndroidManifest.xml:19:5-21:19
+REJECTED from [com.android.support:support-compat:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/6ffa15d6d06df0dd745b7cf176c22373/AndroidManifest.xml:22:5-94
+REJECTED from [com.android.support:versionedparcelable:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/437381cf8277cea172f365d55d772605/AndroidManifest.xml:22:5-23:19
+REJECTED from [:HeaderDecor-0.2.7:] /Users/misha/.gradle/caches/transforms-2/files-2.1/1a0302f9d801082cc9346290858fdf01/AndroidManifest.xml:27:5-20
+REJECTED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/ae24965676dd1cb1a949cdb9aa04bbf7/AndroidManifest.xml:9:5-20
+REJECTED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /Users/misha/.gradle/caches/transforms-2/files-2.1/86c2d7224c367ce08d192ca686f0b66b/AndroidManifest.xml:11:5-17:19
+REJECTED from [com.google.maps.android:android-maps-utils:0.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/1ceb1f05288ff41c5ff1865aa0de1453/AndroidManifest.xml:7:5-11:19
+REJECTED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/a49813ec75bce538496ba3192b101a66/AndroidManifest.xml:54:5-20
+REJECTED from [com.crashlytics.sdk.android:answers:1.4.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/d068e45fb68884b00df86c37fc7dad55/AndroidManifest.xml:11:5-20
+REJECTED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/misha/.gradle/caches/transforms-2/files-2.1/fe4b81aaab4bf266696764ec75573a6a/AndroidManifest.xml:11:5-20
+REJECTED from [io.fabric.sdk.android:fabric:1.4.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/e825f8fc708edb85c07a59810bd0d2cd/AndroidManifest.xml:31:5-20
+REJECTED from [com.github.traex.rippleeffect:ripple:1.3.1-OG] /Users/misha/.gradle/caches/transforms-2/files-2.1/602a852e67a7da1023478fcef9fe5266/AndroidManifest.xml:12:5-20
+REJECTED from [com.github.omadahealth.typefaceview:typefaceview:1.5.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/ebccad81b3fc25935b0b61f9d0180391/AndroidManifest.xml:11:5-14:19
+	tools:node
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:36:9-29
+	android:label
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:33:9-41
+	android:resizeableActivity
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:34:9-43
+	tools:targetApi
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:37:9-28
+	android:icon
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:32:9-41
+	android:allowBackup
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:31:9-35
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:35:9-45
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:30:9-56
+service#com.evernote.android.job.v21.PlatformJobService
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:39:9-42:71
+	android:exported
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:41:13-37
+	android:permission
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:42:13-69
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:40:13-75
+service#com.evernote.android.job.v14.PlatformAlarmService
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:43:9-46:71
+	android:exported
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:45:13-37
+	android:permission
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:46:13-69
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:44:13-77
+service#com.evernote.android.job.v14.PlatformAlarmServiceExact
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:47:9-49:39
+	android:exported
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:48:13-82
+receiver#com.evernote.android.job.v14.PlatformAlarmReceiver
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:50:9-58:20
+	android:exported
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:51:13-78
+intent-filter#action:name:com.evernote.android.job.v14.RUN_JOB+action:name:net.vrallev.android.job.v14.RUN_JOB
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:53:13-57:29
+action#com.evernote.android.job.v14.RUN_JOB
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:55:17-78
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:55:25-76
+action#net.vrallev.android.job.v14.RUN_JOB
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:56:17-77
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:56:25-75
+receiver#com.evernote.android.job.JobBootReceiver
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:59:9-68:20
+	android:exported
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:60:13-68
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:62:13-67:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:63:17-78
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:63:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:64:17-81
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:64:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:65:17-81
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:65:25-79
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:66:17-83
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:66:25-81
+service#com.evernote.android.job.gcm.PlatformGcmService
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:69:9-77:19
+	android:enabled
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:71:13-36
+	android:exported
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:72:13-36
+	android:permission
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:73:13-93
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:70:13-75
+intent-filter#action:name:com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:74:13-76:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:75:17-86
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:75:25-84
+service#com.evernote.android.job.JobRescheduleService
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:78:9-81:71
+	android:exported
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:80:13-37
+	android:permission
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:81:13-69
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:79:13-73
+receiver#com.mtiarn.finance.receivers.SMSReceiver
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:83:9-87:20
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:83:19-74
+intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:84:13-86:29
+	android:priority
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:84:28-57
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:85:17-81
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:85:25-79
+receiver#com.mtiarn.finance.receivers.CustomIntentReceiver
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:88:9-96:20
+	android:enabled
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:90:13-35
+	android:exported
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:91:13-36
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:89:13-77
+intent-filter#action:name:com.mtiarn.finance.intent.action.CREATE_SMS+action:name:com.mtiarn.finance.intent.action.CREATE_TRANSACTION
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:92:13-95:29
+action#com.mtiarn.finance.intent.action.CREATE_TRANSACTION
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:93:17-93
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:93:25-91
+action#com.mtiarn.finance.intent.action.CREATE_SMS
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:94:17-85
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:94:25-83
+receiver#com.mtiarn.finance.WidgetExpense
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:97:9-105:20
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:97:19-66
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:98:13-100:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:99:17-83
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:99:25-81
+meta-data#android.appwidget.provider
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:101:13-104:62
+	android:resource
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:104:17-60
+	android:label
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:103:17-52
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:102:17-58
+receiver#com.mtiarn.finance.WidgetIncome
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:106:9-114:20
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:106:19-65
+receiver#com.mtiarn.finance.WidgetTransfer
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:115:9-123:20
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:115:19-67
+receiver#com.mtiarn.finance.receivers.CalcReciever
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:125:9-129:20
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:125:19-75
+intent-filter#action:name:com.mtiarn.finance.intent.action.ACT_CALC_DONE
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:126:13-128:29
+action#com.mtiarn.finance.intent.action.ACT_CALC_DONE
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:127:17-88
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:127:25-86
+activity#com.mtiarn.finance.ActivityMain
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:131:9-144:20
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:134:13-49
+	android:label
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:133:13-45
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:135:13-53
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:132:13-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:136:13-140:29
+action#android.intent.action.MAIN
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:137:17-68
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:137:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:139:17-76
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:139:27-74
+meta-data#android.app.shortcuts
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:141:13-143:52
+	android:resource
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:143:17-50
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:142:17-53
+activity#com.mtiarn.finance.ActivityEditTransaction
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:145:9-152:20
+	android:windowSoftInputMode
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:148:13-67
+	android:exported
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:147:13-36
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:146:13-70
+intent-filter#category:name:android.intent.category.LAUNCHER
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:149:13-151:29
+activity#com.mtiarn.finance.ActivityEditAccount
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:153:9-157:69
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:156:13-49
+	android:label
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:155:13-29
+	android:windowSoftInputMode
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:157:13-67
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:154:13-66
+activity#com.mtiarn.finance.ActivityReferences
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:158:9-160:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:160:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:159:13-65
+activity#com.mtiarn.finance.ActivityModelList
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:161:9-167:20
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:163:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:162:13-64
+activity#com.mtiarn.finance.ActivitySmsList
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:168:9-171:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:170:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:171:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:169:13-62
+activity#com.mtiarn.finance.ActivitySettings
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:172:9-176:59
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:175:13-49
+	android:label
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:174:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:176:13-57
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:173:13-63
+activity#com.mtiarn.finance.ActivityList
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:177:9-180:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:179:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:180:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:178:13-59
+activity#com.mtiarn.finance.ActivityAdditional
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:181:9-184:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:183:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:184:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:182:13-65
+activity#com.mtiarn.finance.ActivityImportCSV
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:185:9-188:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:187:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:188:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:186:13-64
+activity#com.mtiarn.finance.ActivityImportCSVAdvanced
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:189:9-192:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:191:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:192:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:190:13-72
+activity#com.mtiarn.finance.ActivityExportCSV
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:193:9-196:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:195:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:196:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:194:13-64
+activity#com.mtiarn.finance.ActivityBackup
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:197:9-200:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:199:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:200:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:198:13-61
+activity#com.mtiarn.finance.ActivityImportSms
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:201:9-204:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:203:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:204:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:202:13-64
+activity#com.mtiarn.finance.ActivityEditCredit
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:205:9-208:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:207:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:208:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:206:13-65
+activity#com.mtiarn.finance.ActivityBudget
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:209:9-212:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:211:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:212:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:210:13-61
+activity#com.mtiarn.finance.ActivityEditLocation2
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:213:9-215:51
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:215:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:214:13-68
+activity#com.mtiarn.finance.ActivityAbout
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:216:9-219:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:218:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:219:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:217:13-60
+activity#com.mtiarn.finance.ActivityReports
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:220:9-223:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:222:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:223:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:221:13-62
+activity#com.mtiarn.finance.ActivityAccounts
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:224:9-227:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:226:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:227:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:225:13-63
+activity#com.mtiarn.finance.ActivityTransactions
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:228:9-231:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:230:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:231:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:229:13-67
+activity#com.mtiarn.finance.ActivityPro
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:232:9-235:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:234:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:235:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:233:13-58
+activity#com.mtiarn.finance.ActivityDebtsAndCredits
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:236:9-239:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:238:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:239:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:237:13-70
+activity#com.mtiarn.finance.calc.CalculatorActivity
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:240:9-243:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:242:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:243:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:241:13-70
+activity#com.mtiarn.finance.ActivityShortcut
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:244:9-251:20
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:246:13-53
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:245:13-63
+intent-filter#action:name:android.intent.action.CREATE_SHORTCUT+category:name:android.intent.category.DEFAULT
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:247:13-250:29
+action#android.intent.action.CREATE_SHORTCUT
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:248:17-79
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:248:25-77
+category#android.intent.category.DEFAULT
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:249:17-75
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:249:27-73
+activity#com.mtiarn.finance.widgets.CustomPinActivity
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:252:9-255:51
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:254:13-49
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:255:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:253:13-72
+activity#com.dropbox.core.android.AuthActivity
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:256:9-266:20
+	android:launchMode
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:259:13-44
+	android:configChanges
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:258:13-57
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:257:13-65
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:260:13-265:29
+action#android.intent.action.VIEW
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:262:17-68
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:262:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:263:17-77
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:263:27-75
+activity#com.mtiarn.finance.fts.ActivityScanQR
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:267:9-271:39
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:269:13-49
+	android:noHistory
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:271:13-37
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:270:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:268:13-65
+activity#com.mtiarn.finance.fts.ActivityFtsLogin
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:272:9-276:39
+	android:screenOrientation
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:274:13-49
+	android:noHistory
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:276:13-37
+	android:theme
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:275:13-49
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:273:13-67
+meta-data#com.google.android.gms.version
+ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:284:9-286:69
+	android:value
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:286:13-66
+	android:name
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml:285:13-58
+uses-sdk
+INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+MERGED from [com.l4digital.fastscroll:fastscroll:1.0.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/131a8bbd96e6c1f6966b889f9b665ce7/AndroidManifest.xml:23:5-25:41
+MERGED from [com.l4digital.fastscroll:fastscroll:1.0.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/131a8bbd96e6c1f6966b889f9b665ce7/AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:materialdrawer:6.0.7] /Users/misha/.gradle/caches/transforms-2/files-2.1/6dfa322f7323c24cf0b569505e874d8a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:materialdrawer:6.0.7] /Users/misha/.gradle/caches/transforms-2/files-2.1/6dfa322f7323c24cf0b569505e874d8a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/4d82e3d6c4677591324b1abeb24b3066/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/4d82e3d6c4677591324b1abeb24b3066/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/2b22335883be612831ddee25565aab14/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/2b22335883be612831ddee25565aab14/AndroidManifest.xml:20:5-44
+MERGED from [net.xpece.android:support-preference:2.1.2] /Users/misha/.gradle/caches/transforms-2/files-2.1/cdbfc86814eafcca4a09176e480b4f16/AndroidManifest.xml:7:5-44
+MERGED from [net.xpece.android:support-preference:2.1.2] /Users/misha/.gradle/caches/transforms-2/files-2.1/cdbfc86814eafcca4a09176e480b4f16/AndroidManifest.xml:7:5-44
+MERGED from [com.android.support:preference-v7:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/b78368ea9e60b1fa86d9c0fd7a285f53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v7:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/b78368ea9e60b1fa86d9c0fd7a285f53/AndroidManifest.xml:20:5-44
+MERGED from [com.github.gabrielemariotti.changeloglib:changelog:2.1.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/6f59879942fcbe76b9ca2969d6baa301/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.gabrielemariotti.changeloglib:changelog:2.1.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/6f59879942fcbe76b9ca2969d6baa301/AndroidManifest.xml:7:5-9:41
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/3463eadc0d5eec71555e6cf55bbac992/AndroidManifest.xml:7:5-44
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/3463eadc0d5eec71555e6cf55bbac992/AndroidManifest.xml:7:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/2b7edc0fc2ee579a6b1d2d263778092d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/2b7edc0fc2ee579a6b1d2d263778092d/AndroidManifest.xml:20:5-44
+MERGED from [eu.davidea:flipview:1.1.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/5435214b24103ed9afba2f03314f5207/AndroidManifest.xml:8:5-10:41
+MERGED from [eu.davidea:flipview:1.1.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/5435214b24103ed9afba2f03314f5207/AndroidManifest.xml:8:5-10:41
+MERGED from [ru.tinkoff.decoro:decoro:1.3.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/1e2b160fbf1f6dd2e2fe511a1cac4f89/AndroidManifest.xml:8:5-10:41
+MERGED from [ru.tinkoff.decoro:decoro:1.3.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/1e2b160fbf1f6dd2e2fe511a1cac4f89/AndroidManifest.xml:8:5-10:41
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/8778665d27cd7755c2efded5f0962787/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/8778665d27cd7755c2efded5f0962787/AndroidManifest.xml:5:5-43
+MERGED from [com.evernote:android-job:1.2.5] /Users/misha/.gradle/caches/transforms-2/files-2.1/7b57f575340eba772d0f22d06ceefc20/AndroidManifest.xml:8:5-10:41
+MERGED from [com.evernote:android-job:1.2.5] /Users/misha/.gradle/caches/transforms-2/files-2.1/7b57f575340eba772d0f22d06ceefc20/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.QuadFlask:colorpicker:0.0.13] /Users/misha/.gradle/caches/transforms-2/files-2.1/07ed833101804503b2f63cc34c42dde5/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.QuadFlask:colorpicker:0.0.13] /Users/misha/.gradle/caches/transforms-2/files-2.1/07ed833101804503b2f63cc34c42dde5/AndroidManifest.xml:8:5-10:41
+MERGED from [de.psdev.licensesdialog:licensesdialog:1.8.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/1e9a7e6ac13555f53d49c460825db38e/AndroidManifest.xml:18:5-72
+MERGED from [de.psdev.licensesdialog:licensesdialog:1.8.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/1e9a7e6ac13555f53d49c460825db38e/AndroidManifest.xml:18:5-72
+MERGED from [com.github.omadahealth:lollipin:2.1.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/b610ef469cc04778f54ddd02c26841c8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.omadahealth:lollipin:2.1.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/b610ef469cc04778f54ddd02c26841c8/AndroidManifest.xml:7:5-9:41
+MERGED from [net.xpece.android:support-spinner:2.1.2] /Users/misha/.gradle/caches/transforms-2/files-2.1/617ed8905af9c2e4851ec4a8c616b3a0/AndroidManifest.xml:6:5-44
+MERGED from [net.xpece.android:support-spinner:2.1.2] /Users/misha/.gradle/caches/transforms-2/files-2.1/617ed8905af9c2e4851ec4a8c616b3a0/AndroidManifest.xml:6:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/1da5223cd0889b6bfbcaa5b715f2486b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/1da5223cd0889b6bfbcaa5b715f2486b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/1203d330a3e906f1e2cb8fcf8d062302/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/1203d330a3e906f1e2cb8fcf8d062302/AndroidManifest.xml:20:5-44
+MERGED from [com.airbnb.android:airmapview:1.6.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/eac5ea5305920daedafb4c29b6c7dc3e/AndroidManifest.xml:6:5-8:41
+MERGED from [com.airbnb.android:airmapview:1.6.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/eac5ea5305920daedafb4c29b6c7dc3e/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/b18710228eef04e720a706499d236e1a/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/b18710228eef04e720a706499d236e1a/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/7799002ddb15b25ae9da1c85516f128c/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/7799002ddb15b25ae9da1c85516f128c/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/3d4e28a8bc75ca32b4a9401344a9bf8c/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/3d4e28a8bc75ca32b4a9401344a9bf8c/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/76016b95eaafc4d644d5a4ae29540b49/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/76016b95eaafc4d644d5a4ae29540b49/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/459bea1d7bb5845edc03bed280eb8e50/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/459bea1d7bb5845edc03bed280eb8e50/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/c75d2aac448decdb1fc753c07fac2a41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/c75d2aac448decdb1fc753c07fac2a41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/ec1c161c4454469e31ed665f588f0b33/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/ec1c161c4454469e31ed665f588f0b33/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/1a2e3a8f1e1855ade78f8353f5ba9bee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/1a2e3a8f1e1855ade78f8353f5ba9bee/AndroidManifest.xml:20:5-44
+MERGED from [io.requery:sqlite-android:3.20.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/ce96e12b5444b34e6fd1dd195d891cf0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.requery:sqlite-android:3.20.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/ce96e12b5444b34e6fd1dd195d891cf0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/438e4e8993670ef3a09afa14dde12bee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/438e4e8993670ef3a09afa14dde12bee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/5e896f06cbaf08edb2211e0d5252c90a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/5e896f06cbaf08edb2211e0d5252c90a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/da974ebaea803e79f164f86fbf81088b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/da974ebaea803e79f164f86fbf81088b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/f986a1df7b2ef1c2fc4db0c11f378f77/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/f986a1df7b2ef1c2fc4db0c11f378f77/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/81cae9b936b12d5b8872e5927bff3ca9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/81cae9b936b12d5b8872e5927bff3ca9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/0095afb0ea12ae20f3bfbe0736ea86e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/0095afb0ea12ae20f3bfbe0736ea86e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/e2f51119b3176a199d5165a03ff34470/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/e2f51119b3176a199d5165a03ff34470/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/c15d4fd094d4fd167f6ea222354db3e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/c15d4fd094d4fd167f6ea222354db3e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/cadf4e67ee4cc6585b27bba46dae6e40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/cadf4e67ee4cc6585b27bba46dae6e40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/bb7db296fc587c64d814a4033f0600b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/bb7db296fc587c64d814a4033f0600b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/089ad412e86ad7b58a7b2a129afb0fb9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/089ad412e86ad7b58a7b2a129afb0fb9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/cf13d225b849e574d478e4f26bfe7743/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/cf13d225b849e574d478e4f26bfe7743/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/6ffa15d6d06df0dd745b7cf176c22373/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/6ffa15d6d06df0dd745b7cf176c22373/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/437381cf8277cea172f365d55d772605/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/437381cf8277cea172f365d55d772605/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/84123a9f0f5e0dd96980250343ef21de/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/84123a9f0f5e0dd96980250343ef21de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/ff6af5ea4dadf64c6d4991f577c17538/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/ff6af5ea4dadf64c6d4991f577c17538/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/de9e6f5dcab67cadc18d96b98da0c980/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/de9e6f5dcab67cadc18d96b98da0c980/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/f3df4712aec6ce68f04152a6b9f1e951/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/f3df4712aec6ce68f04152a6b9f1e951/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/84ea1fc82359d3d6c0b71bb811bae341/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/84ea1fc82359d3d6c0b71bb811bae341/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/54860a73242f980637503d9843eff48d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/54860a73242f980637503d9843eff48d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/efe45dadaf3af9b13894853c2b1e339f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/efe45dadaf3af9b13894853c2b1e339f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/f03268a087fae015b283f90e150f6321/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/f03268a087fae015b283f90e150f6321/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/a25a4568fd1331ddfe6a7251f0272bcf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/a25a4568fd1331ddfe6a7251f0272bcf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/8699e5cc91be53cffb0a8a20a48574e5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/8699e5cc91be53cffb0a8a20a48574e5/AndroidManifest.xml:20:5-44
+MERGED from [:MaterialShowCase-1.0.5:] /Users/misha/.gradle/caches/transforms-2/files-2.1/ec3ecc3bdb5a5a96c7f6dcfc98549f5d/AndroidManifest.xml:7:5-9:41
+MERGED from [:MaterialShowCase-1.0.5:] /Users/misha/.gradle/caches/transforms-2/files-2.1/ec3ecc3bdb5a5a96c7f6dcfc98549f5d/AndroidManifest.xml:7:5-9:41
+MERGED from [:HeaderDecor-0.2.7:] /Users/misha/.gradle/caches/transforms-2/files-2.1/1a0302f9d801082cc9346290858fdf01/AndroidManifest.xml:23:5-25:41
+MERGED from [:HeaderDecor-0.2.7:] /Users/misha/.gradle/caches/transforms-2/files-2.1/1a0302f9d801082cc9346290858fdf01/AndroidManifest.xml:23:5-25:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/ae24965676dd1cb1a949cdb9aa04bbf7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/ae24965676dd1cb1a949cdb9aa04bbf7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.dlazaro66.qrcodereaderview:qrcodereaderview:2.0.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/4caba7d3a8f8dabd1e59f5b0d8c53491/AndroidManifest.xml:8:5-10:41
+MERGED from [com.dlazaro66.qrcodereaderview:qrcodereaderview:2.0.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/4caba7d3a8f8dabd1e59f5b0d8c53491/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.angads25:filepicker:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/931017f88a746caa7511ab599a697aeb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.angads25:filepicker:1.1.1] /Users/misha/.gradle/caches/transforms-2/files-2.1/931017f88a746caa7511ab599a697aeb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.hotchemi:permissionsdispatcher:3.1.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/e9c7cbccdcdc24d43a144fb1cc4c2fc1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.hotchemi:permissionsdispatcher:3.1.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/e9c7cbccdcdc24d43a144fb1cc4c2fc1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.mikepenz:actionitembadge:3.3.2] /Users/misha/.gradle/caches/transforms-2/files-2.1/6e2b0f9c016bb73726ebb9fa146dae2e/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:actionitembadge:3.3.2] /Users/misha/.gradle/caches/transforms-2/files-2.1/6e2b0f9c016bb73726ebb9fa146dae2e/AndroidManifest.xml:8:5-10:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /Users/misha/.gradle/caches/transforms-2/files-2.1/86c2d7224c367ce08d192ca686f0b66b/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /Users/misha/.gradle/caches/transforms-2/files-2.1/86c2d7224c367ce08d192ca686f0b66b/AndroidManifest.xml:7:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/dbac2aa878c93a3cc8d01cb2e69ca3b7/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/dbac2aa878c93a3cc8d01cb2e69ca3b7/AndroidManifest.xml:18:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/1ceb1f05288ff41c5ff1865aa0de1453/AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/1ceb1f05288ff41c5ff1865aa0de1453/AndroidManifest.xml:5:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/a49813ec75bce538496ba3192b101a66/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/a49813ec75bce538496ba3192b101a66/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/d068e45fb68884b00df86c37fc7dad55/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/d068e45fb68884b00df86c37fc7dad55/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/misha/.gradle/caches/transforms-2/files-2.1/fe4b81aaab4bf266696764ec75573a6a/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/misha/.gradle/caches/transforms-2/files-2.1/fe4b81aaab4bf266696764ec75573a6a/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/e825f8fc708edb85c07a59810bd0d2cd/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/e825f8fc708edb85c07a59810bd0d2cd/AndroidManifest.xml:27:5-43
+MERGED from [com.github.traex.rippleeffect:ripple:1.3.1-OG] /Users/misha/.gradle/caches/transforms-2/files-2.1/602a852e67a7da1023478fcef9fe5266/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.traex.rippleeffect:ripple:1.3.1-OG] /Users/misha/.gradle/caches/transforms-2/files-2.1/602a852e67a7da1023478fcef9fe5266/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.omadahealth.typefaceview:typefaceview:1.5.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/ebccad81b3fc25935b0b61f9d0180391/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.omadahealth.typefaceview:typefaceview:1.5.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/ebccad81b3fc25935b0b61f9d0180391/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:materialize:1.1.2] /Users/misha/.gradle/caches/transforms-2/files-2.1/81a842378ed7e4e5dd8533484f634699/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:materialize:1.1.2] /Users/misha/.gradle/caches/transforms-2/files-2.1/81a842378ed7e4e5dd8533484f634699/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:iconics-core:3.0.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/83c8bc160ec272bc4da357069304091e/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:iconics-core:3.0.3] /Users/misha/.gradle/caches/transforms-2/files-2.1/83c8bc160ec272bc4da357069304091e/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter:3.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/a57a13afae3468d5c083aeadddcdebb0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter:3.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/a57a13afae3468d5c083aeadddcdebb0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter-extensions-expandable:3.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/e9720979ad4e76314678797dcd86b144/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter-extensions-expandable:3.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/e9720979ad4e76314678797dcd86b144/AndroidManifest.xml:8:5-10:41
+INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+		ADDED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/misha/Desktop/finance manager/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [com.github.omadahealth:lollipin:2.1.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/b610ef469cc04778f54ddd02c26841c8/AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from [com.github.omadahealth:lollipin:2.1.0] /Users/misha/.gradle/caches/transforms-2/files-2.1/b610ef469cc04778f54ddd02c26841c8/AndroidManifest.xml:11:22-71
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/b18710228eef04e720a706499d236e1a/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/b18710228eef04e720a706499d236e1a/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/misha/.gradle/caches/transforms-2/files-2.1/b18710228eef04e720a706499d236e1a/AndroidManifest.xml:21:52-75

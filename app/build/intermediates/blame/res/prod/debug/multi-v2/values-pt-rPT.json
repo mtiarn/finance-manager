@@ -1,0 +1,111 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/misha/Desktop/finance manager/app/build/intermediates/incremental/mergeProdDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml",
+            "map": [
+                {
+                    "source": "/Users/misha/.gradle/caches/transforms-2/files-2.1/76016b95eaafc4d644d5a4ae29540b49/res/values-pt-rPT/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "289",
+                        "endColumns": "203",
+                        "endOffsets": "492"
+                    },
+                    "to": {
+                        "startLines": "39",
+                        "startColumns": "4",
+                        "startOffsets": "4079",
+                        "endColumns": "203",
+                        "endOffsets": "4278"
+                    }
+                },
+                {
+                    "source": "/Users/misha/.gradle/caches/transforms-2/files-2.1/b78368ea9e60b1fa86d9c0fd7a285f53/res/values-pt-rPT/values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "105,193,362,449",
+                        "endColumns": "87,168,86,80",
+                        "endOffsets": "188,357,444,525"
+                    },
+                    "to": {
+                        "startLines": "49,60,61,62",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5713,6583,6752,6839",
+                        "endColumns": "87,168,86,80",
+                        "endOffsets": "5796,6747,6834,6915"
+                    }
+                },
+                {
+                    "source": "/Users/misha/.gradle/caches/transforms-2/files-2.1/1da5223cd0889b6bfbcaa5b715f2486b/res/values-pt-rPT/values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,331,438,527,628,752,836,917,1009,1103,1201,1295,1395,1489,1585,1680,1772,1864,1951,2058,2170,2272,2380,2487,2594,2765,2864",
+                        "endColumns": "119,105,106,88,100,123,83,80,91,93,97,93,99,93,95,94,91,91,86,106,111,101,107,106,106,170,98,84",
+                        "endOffsets": "220,326,433,522,623,747,831,912,1004,1098,1196,1290,1390,1484,1580,1675,1767,1859,1946,2053,2165,2267,2375,2482,2589,2760,2859,2944"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,58",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,331,438,527,628,752,836,917,1009,1103,1201,1295,1395,1489,1585,1680,1772,1864,1951,2058,2170,2272,2380,2487,2594,2765,6397",
+                        "endColumns": "119,105,106,88,100,123,83,80,91,93,97,93,99,93,95,94,91,91,86,106,111,101,107,106,106,170,98,84",
+                        "endOffsets": "220,326,433,522,623,747,831,912,1004,1098,1196,1290,1390,1484,1580,1675,1767,1859,1946,2053,2165,2267,2375,2482,2589,2760,2859,6477"
+                    }
+                },
+                {
+                    "source": "/Users/misha/.gradle/caches/transforms-2/files-2.1/6ffa15d6d06df0dd745b7cf176c22373/res/values-pt-rPT/values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "59",
+                        "startColumns": "4",
+                        "startOffsets": "6482",
+                        "endColumns": "100",
+                        "endOffsets": "6578"
+                    }
+                },
+                {
+                    "source": "/Users/misha/.gradle/caches/transforms-2/files-2.1/7799002ddb15b25ae9da1c85516f128c/res/values-pt-rPT/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "287,390,585,711,817,1044,1170,1304,1551,1657,1858,1987,2205,2409,2503,2598",
+                        "endColumns": "102,194,125,105,226,125,133,246,105,200,128,217,203,93,94,111",
+                        "endOffsets": "389,584,710,816,1043,1169,1303,1550,1656,1857,1986,2204,2408,2502,2597,2709"
+                    },
+                    "to": {
+                        "startLines": "32,33,34,35,36,37,38,40,41,42,43,44,45,46,47,48",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3042,3149,3344,3474,3584,3811,3941,4283,4530,4640,4841,4974,5192,5400,5498,5597",
+                        "endColumns": "106,194,129,109,226,129,137,246,109,200,132,217,207,97,98,115",
+                        "endOffsets": "3144,3339,3469,3579,3806,3936,4074,4525,4635,4836,4969,5187,5395,5493,5592,5708"
+                    }
+                },
+                {
+                    "source": "/Users/misha/.gradle/caches/transforms-2/files-2.1/cdbfc86814eafcca4a09176e480b4f16/res/values-pt-rPT/values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,181,234,283,371,436,551,610,683,768,819",
+                        "endColumns": "75,52,48,87,64,114,58,72,84,50,59",
+                        "endOffsets": "176,229,278,366,431,546,605,678,763,814,874"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,50,51,52,53,54,55,56,57",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2864,2940,2993,5801,5889,5954,6069,6128,6201,6286,6337",
+                        "endColumns": "75,52,48,87,64,114,58,72,84,50,59",
+                        "endOffsets": "2935,2988,3037,5884,5949,6064,6123,6196,6281,6332,6392"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.mtiarn.finance">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.mtiarn.finance.gcm.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false"/>
+
+    <application
+        android:name="com.mtiarn.finance.FGApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_main"
+        android:label="@string/app_name"
+        android:resizeableActivity="false"
+        android:theme="@style/AppThemeLight"
+        tools:node="replace"
+        tools:targetApi="n">
+
+        <service
+            android:name="com.evernote.android.job.v21.PlatformJobService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service
+            android:name="com.evernote.android.job.v14.PlatformAlarmService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service
+            android:name="com.evernote.android.job.v14.PlatformAlarmServiceExact"
+            android:exported="false"/>
+        <receiver
+            android:name="com.evernote.android.job.v14.PlatformAlarmReceiver"
+            android:exported="false">
+            <intent-filter>
+                <!-- Keep the filter for legacy intents -->
+                <action android:name="com.evernote.android.job.v14.RUN_JOB"/>
+                <action android:name="net.vrallev.android.job.v14.RUN_JOB"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.evernote.android.job.JobBootReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.evernote.android.job.gcm.PlatformGcmService"
+            android:enabled="false"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.evernote.android.job.JobRescheduleService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+
+        <receiver android:name="com.mtiarn.finance.receivers.SMSReceiver">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.mtiarn.finance.receivers.CustomIntentReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mtiarn.finance.intent.action.CREATE_TRANSACTION"/>
+                <action android:name="com.mtiarn.finance.intent.action.CREATE_SMS"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.mtiarn.finance.WidgetExpense">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:label="@string/ent_outcome"
+                android:resource="@xml/widget_info_outcome"/>
+        </receiver>
+        <receiver android:name="com.mtiarn.finance.WidgetIncome">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:label="@string/ent_income"
+                android:resource="@xml/widget_info_income"/>
+        </receiver>
+        <receiver android:name="com.mtiarn.finance.WidgetTransfer">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:label="@string/ent_transfer"
+                android:resource="@xml/widget_info_transfer"/>
+        </receiver>
+
+        <receiver android:name="com.mtiarn.finance.receivers.CalcReciever">
+            <intent-filter>
+                <action android:name="com.mtiarn.finance.intent.action.ACT_CALC_DONE"/>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.mtiarn.finance.ActivityMain"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/splashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts"/>
+        </activity>
+        <activity
+            android:name="com.mtiarn.finance.ActivityEditTransaction"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mtiarn.finance.ActivityEditAccount"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityReferences"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityModelList"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mtiarn.finance.ActivitySmsList"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivitySettings"
+            android:label="@string/ent_settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivitySettingsTheme"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityList"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityAdditional"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityImportCSV"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityImportCSVAdvanced"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityExportCSV"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityBackup"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityImportSms"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityEditCredit"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityBudget"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityEditLocation2"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityAbout"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityReports"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityAccounts"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityTransactions"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityPro"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityDebtsAndCredits"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.calc.CalculatorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.mtiarn.finance.ActivityShortcut"
+            android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mtiarn.finance.widgets.CustomPinActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"/>
+        <activity
+            android:name="com.dropbox.core.android.AuthActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <data android:scheme="${dropboxApiKey}"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mtiarn.finance.fts.ActivityScanQR"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"
+            android:noHistory="true"/>
+        <activity
+            android:name="com.mtiarn.finance.fts.ActivityFtsLogin"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLight"
+            android:noHistory="true"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${mapsApiKey}"/>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="${fabricApiKey}"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
