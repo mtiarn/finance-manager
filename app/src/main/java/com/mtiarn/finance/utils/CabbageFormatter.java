@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2015.
- */
-
 package com.mtiarn.finance.utils;
 
 import com.mtiarn.finance.model.Cabbage;

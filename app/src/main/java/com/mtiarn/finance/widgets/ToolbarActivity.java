@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2015.
- */
-
 package com.mtiarn.finance.widgets;
 
 import android.content.Intent;
