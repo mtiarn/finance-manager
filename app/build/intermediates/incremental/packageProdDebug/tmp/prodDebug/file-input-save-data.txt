@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jun 10 07:48:06 MSK 2020
+#Wed Jun 10 10:31:46 MSK 2020
 17.baseType=DIRECTORY
 4.path=AvenirNext-Medium.otf
 8.set=ASSET

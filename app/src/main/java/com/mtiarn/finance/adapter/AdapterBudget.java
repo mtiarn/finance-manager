@@ -69,14 +69,6 @@ public class AdapterBudget extends RecyclerView.Adapter {
         mTheme = Integer.valueOf(PreferenceManager.getDefaultSharedPreferences(mContext).getString("theme", "0"));
     }
 
-//    public Integer getPosById(long id) {
-//        for (int i = 0; i < mList.size(); i++) {
-//            if (mList.get(i).getmId() == id) {
-//                return i;
-//            }
-//        }
-//        return null;
-//    }
 
     public CNode getmTree() {
         return mTree;

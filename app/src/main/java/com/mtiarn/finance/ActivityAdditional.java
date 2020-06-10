@@ -93,26 +93,6 @@ public class ActivityAdditional extends ToolbarActivity {
                     }
                 }, 4));
 
-//        menuItemList.add(new MenuItem(iconGenerator.getBackupRestoreIcon(this),
-//                "Export sheet",
-//                new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View v) {
-//
-//                    }
-//                }, 2));
-
-//        if (BuildConfig.FLAVOR.equals("sync")) {
-//            menuItemList.add(new MenuItem(iconGenerator.getSyncIcon(this),
-//                    getString(R.string.ent_sync),
-//                    new View.OnClickListener() {
-//                        @Override
-//                        public void onClick(View v) {
-//                            intent[0] = new Intent(ActivityAdditional.this, ActivitySyncSettings.class);
-//                            ActivityAdditional.this.startActivity(intent[0]);
-//                        }
-//                    }, 2));
-//        }
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
