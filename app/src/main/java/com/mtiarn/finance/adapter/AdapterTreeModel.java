@@ -40,10 +40,6 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import eu.davidea.flipview.FlipView;
 
-/**
- * Created by slv on 25.12.2015.
- * a
- */
 public class AdapterTreeModel extends RecyclerView.Adapter implements ItemTouchHelperAdapter {
 
     public static final int MODE_VIEW = 0;

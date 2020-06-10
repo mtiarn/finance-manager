@@ -160,15 +160,13 @@ public class ActivityImportCSV extends ToolbarActivity implements IProgressEvent
 
     @OnShowRationale(Manifest.permission.READ_EXTERNAL_STORAGE)
     void showRationaleForReadExternalStorage(PermissionRequest request) {
-        // NOTE: Show a rationale to explain why the permission is needed, e.g. with a dialog.
-        // Call proceed() or cancel() on the provided PermissionRequest to continue or abort
+
         showRationaleDialog(R.string.msg_permission_read_external_storage_rationale, request);
     }
 
     @OnPermissionDenied(Manifest.permission.READ_EXTERNAL_STORAGE)
     void onReadExternalStorageDenied() {
-        // NOTE: Deal with a denied permission, e.g. by showing specific UI
-        // or disabling certain functionality
+
         Toast.makeText(this, R.string.msg_permission_read_external_storage_denied, Toast.LENGTH_SHORT).show();
     }
 
@@ -180,7 +178,6 @@ public class ActivityImportCSV extends ToolbarActivity implements IProgressEvent
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        // NOTE: delegate the permission handling to generated method
         ActivityImportCSVPermissionsDispatcher.onRequestPermissionsResult(this, requestCode, grantResults);
     }
 
@@ -205,7 +202,6 @@ public class ActivityImportCSV extends ToolbarActivity implements IProgressEvent
 
     @Override
     public void onProgressChange(int progress) {
-//        Log.d("csv", String.format("enter listener progress = %d", progress));
         if (progress != mCurrentProgress) {
             Log.d("csv", "progress != mCurrentProgress");
             handler.sendMessage(handler.obtainMessage(HANDLER_OPERATION_UPDATE, progress, 0));
